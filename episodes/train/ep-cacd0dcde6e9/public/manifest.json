@@ -1,0 +1,104 @@
+{
+  "base_currency": "KZT",
+  "config_version": "1.0.0",
+  "currency_exponents": {
+    "EUR": 2,
+    "JPY": 0,
+    "KZT": 2,
+    "USD": 2
+  },
+  "document_count": 140,
+  "entities": [
+    {
+      "entity_id": "CUS-2NC9",
+      "kind": "customer",
+      "name": "Tulpar Pharma Group"
+    },
+    {
+      "entity_id": "CUS-ASP2",
+      "kind": "customer",
+      "name": "Altyn Digital JSC"
+    },
+    {
+      "entity_id": "CUS-FIRB",
+      "kind": "customer",
+      "name": "Kazyna Foods JSC"
+    },
+    {
+      "entity_id": "CUS-G3DP",
+      "kind": "customer",
+      "name": "Shanyrak Foods Partners"
+    },
+    {
+      "entity_id": "CUS-POTP",
+      "kind": "customer",
+      "name": "Qyran Systems JSC"
+    },
+    {
+      "entity_id": "CUS-Q1GC",
+      "kind": "customer",
+      "name": "Altyn Energy Partners"
+    },
+    {
+      "entity_id": "CUS-WBZ6",
+      "kind": "customer",
+      "name": "Tulpar Agro JSC"
+    },
+    {
+      "entity_id": "CUS-XE1Z",
+      "kind": "customer",
+      "name": "Irtysh Media Partners"
+    },
+    {
+      "entity_id": "CUS-Y9SP",
+      "kind": "customer",
+      "name": "Zhetysu Systems Group"
+    },
+    {
+      "entity_id": "VEN-4A0X",
+      "kind": "vendor",
+      "name": "Tengri Trading Group"
+    },
+    {
+      "entity_id": "VEN-8HBP",
+      "kind": "vendor",
+      "name": "Shanyrak Analytics Partners"
+    },
+    {
+      "entity_id": "VEN-L117",
+      "kind": "vendor",
+      "name": "Aral Energy Group"
+    },
+    {
+      "entity_id": "VEN-NV19",
+      "kind": "vendor",
+      "name": "Samruk Analytics LLP"
+    },
+    {
+      "entity_id": "VEN-QZ0T",
+      "kind": "vendor",
+      "name": "Aral Retail LLP"
+    }
+  ],
+  "env_version": "1.5.1",
+  "episode_id": "ep-cacd0dcde6e9",
+  "null_encoding": {
+    "csv": "empty cell",
+    "json": "null"
+  },
+  "period_end": "2026-01-31T23:59:59+00:00",
+  "period_start": "2026-01-01T00:00:00+00:00",
+  "record_counts": {
+    "fx": 135,
+    "invoices": 83,
+    "ledger": 608,
+    "payments": 57
+  },
+  "rounding": {
+    "fx_rate": "decimal string",
+    "mode": "half_even",
+    "money": "integer minor units"
+  },
+  "schema_version": "1.2",
+  "timezone": "UTC+00:00"
+}

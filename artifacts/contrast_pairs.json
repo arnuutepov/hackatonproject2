@@ -1,0 +1,1178 @@
+{
+  "by_policy": {
+    "flag_all": {
+      "original_right": 0,
+      "pairs_right": 0,
+      "twin_right": 0
+    },
+    "oracle": {
+      "original_right": 36,
+      "pairs_right": 36,
+      "twin_right": 36
+    },
+    "random": {
+      "original_right": 0,
+      "pairs_right": 0,
+      "twin_right": 30
+    },
+    "reconcile": {
+      "original_right": 18,
+      "pairs_right": 18,
+      "twin_right": 30
+    }
+  },
+  "by_removed_type": {
+    "duplicate_invoice": {
+      "flag_all": 0,
+      "oracle": 9,
+      "pairs": 9,
+      "random": 0,
+      "reconcile": 9
+    },
+    "fx_conversion": {
+      "flag_all": 0,
+      "oracle": 11,
+      "pairs": 11,
+      "random": 0,
+      "reconcile": 0
+    },
+    "partial_payment": {
+      "flag_all": 0,
+      "oracle": 9,
+      "pairs": 9,
+      "random": 0,
+      "reconcile": 9
+    },
+    "period_cutoff": {
+      "flag_all": 0,
+      "oracle": 7,
+      "pairs": 7,
+      "random": 0,
+      "reconcile": 0
+    }
+  },
+  "details": [
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-HZ3XR",
+      "removed_type": "duplicate_invoice",
+      "scenario": "D06",
+      "seed": 1,
+      "source": "D06-1"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-8FZVH",
+      "removed_type": "duplicate_invoice",
+      "scenario": "D06",
+      "seed": 2,
+      "source": "D06-2"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-RQN47",
+      "removed_type": "duplicate_invoice",
+      "scenario": "D06",
+      "seed": 3,
+      "source": "D06-3"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-HZ3XR",
+      "removed_type": "duplicate_invoice",
+      "scenario": "D07",
+      "seed": 1,
+      "source": "D07-1"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-8FZVH",
+      "removed_type": "duplicate_invoice",
+      "scenario": "D07",
+      "seed": 2,
+      "source": "D07-2"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-RQN47",
+      "removed_type": "duplicate_invoice",
+      "scenario": "D07",
+      "seed": 3,
+      "source": "D07-3"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-HZ3XR",
+      "removed_type": "duplicate_invoice",
+      "scenario": "D08",
+      "seed": 1,
+      "source": "D08-1"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-8FZVH",
+      "removed_type": "duplicate_invoice",
+      "scenario": "D08",
+      "seed": 2,
+      "source": "D08-2"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-RQN47",
+      "removed_type": "duplicate_invoice",
+      "scenario": "D08",
+      "seed": 3,
+      "source": "D08-3"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-J2WXM",
+      "removed_type": "partial_payment",
+      "scenario": "D09",
+      "seed": 1,
+      "source": "D09-1"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-KRBUX",
+      "removed_type": "partial_payment",
+      "scenario": "D09",
+      "seed": 2,
+      "source": "D09-2"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-7JNZT",
+      "removed_type": "partial_payment",
+      "scenario": "D09",
+      "seed": 3,
+      "source": "D09-3"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-QAV0A",
+      "removed_type": "partial_payment",
+      "scenario": "D10",
+      "seed": 1,
+      "source": "D10-1"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-T4UE8",
+      "removed_type": "partial_payment",
+      "scenario": "D10",
+      "seed": 2,
+      "source": "D10-2"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-TPX7S",
+      "removed_type": "partial_payment",
+      "scenario": "D10",
+      "seed": 3,
+      "source": "D10-3"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-N48LH",
+      "removed_type": "partial_payment",
+      "scenario": "D11",
+      "seed": 1,
+      "source": "D11-1"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-DOZAT",
+      "removed_type": "partial_payment",
+      "scenario": "D11",
+      "seed": 2,
+      "source": "D11-2"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-1IHR8",
+      "removed_type": "partial_payment",
+      "scenario": "D11",
+      "seed": 3,
+      "source": "D11-3"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-5DEM6",
+      "removed_type": "fx_conversion",
+      "scenario": "D12",
+      "seed": 1,
+      "source": "D12-1"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-Q43GN",
+      "removed_type": "fx_conversion",
+      "scenario": "D12",
+      "seed": 2,
+      "source": "D12-2"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-TB6TQ",
+      "removed_type": "fx_conversion",
+      "scenario": "D12",
+      "seed": 3,
+      "source": "D12-3"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-5DEM6",
+      "removed_type": "fx_conversion",
+      "scenario": "D13",
+      "seed": 1,
+      "source": "D13-1"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-Q43GN",
+      "removed_type": "fx_conversion",
+      "scenario": "D13",
+      "seed": 2,
+      "source": "D13-2"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-TB6TQ",
+      "removed_type": "fx_conversion",
+      "scenario": "D13",
+      "seed": 3,
+      "source": "D13-3"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-EMZ8P",
+      "removed_type": "period_cutoff",
+      "scenario": "D14",
+      "seed": 1,
+      "source": "D14-1"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-O7T4V",
+      "removed_type": "period_cutoff",
+      "scenario": "D14",
+      "seed": 2,
+      "source": "D14-2"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-1FG14",
+      "removed_type": "period_cutoff",
+      "scenario": "D14",
+      "seed": 3,
+      "source": "D14-3"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-EMZ8P",
+      "removed_type": "period_cutoff",
+      "scenario": "D15",
+      "seed": 1,
+      "source": "D15-1"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-O7T4V",
+      "removed_type": "period_cutoff",
+      "scenario": "D15",
+      "seed": 2,
+      "source": "D15-2"
+    },
+    {
+      "issues_left": 0,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": true
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-1FG14",
+      "removed_type": "period_cutoff",
+      "scenario": "D15",
+      "seed": 3,
+      "source": "D15-3"
+    },
+    {
+      "issues_left": 7,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-Y36F7",
+      "removed_type": "fx_conversion",
+      "scenario": "interacting",
+      "seed": 1,
+      "source": "interacting-1"
+    },
+    {
+      "issues_left": 7,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-J0IFR",
+      "removed_type": "period_cutoff",
+      "scenario": "interacting",
+      "seed": 2,
+      "source": "interacting-2"
+    },
+    {
+      "issues_left": 5,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-HHXBS",
+      "removed_type": "fx_conversion",
+      "scenario": "interacting",
+      "seed": 3,
+      "source": "interacting-3"
+    },
+    {
+      "issues_left": 10,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-DZEA6",
+      "removed_type": "fx_conversion",
+      "scenario": "level_hard",
+      "seed": 1,
+      "source": "level_hard-1"
+    },
+    {
+      "issues_left": 8,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-4FB2A",
+      "removed_type": "fx_conversion",
+      "scenario": "level_hard",
+      "seed": 2,
+      "source": "level_hard-2"
+    },
+    {
+      "issues_left": 11,
+      "policies": {
+        "flag_all": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "oracle": {
+          "original": true,
+          "pair": true,
+          "twin": true
+        },
+        "random": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        },
+        "reconcile": {
+          "original": false,
+          "pair": false,
+          "twin": false
+        }
+      },
+      "problems": [],
+      "removed_issue": "ISS-7HTI1",
+      "removed_type": "fx_conversion",
+      "scenario": "level_hard",
+      "seed": 3,
+      "source": "level_hard-3"
+    }
+  ],
+  "examples_of_problems": [],
+  "invalid_pairs": 0,
+  "pairs": 36,
+  "passed": true,
+  "seconds": 7.0,
+  "what": "counterfactual pairs: the same books with and without one recorded error; a policy is credited only when it is right (no false positive, no miss) on both sides"
+}

@@ -1,0 +1,139 @@
+{
+  "base_currency": "KZT",
+  "config_version": "1.0.0",
+  "currency_exponents": {
+    "EUR": 2,
+    "JPY": 0,
+    "KZT": 2,
+    "USD": 2
+  },
+  "document_count": 137,
+  "entities": [
+    {
+      "entity_id": "CUS-34GJ",
+      "kind": "customer",
+      "name": "Shanyrak Foods LLP"
+    },
+    {
+      "entity_id": "CUS-ADAF",
+      "kind": "customer",
+      "name": "Nomad Logistics Partners"
+    },
+    {
+      "entity_id": "CUS-FH3M",
+      "kind": "customer",
+      "name": "Altyn Retail Partners"
+    },
+    {
+      "entity_id": "CUS-FLJJ",
+      "kind": "customer",
+      "name": "Ulytau Textile Partners"
+    },
+    {
+      "entity_id": "CUS-LBCW",
+      "kind": "customer",
+      "name": "Samruk Systems JSC"
+    },
+    {
+      "entity_id": "CUS-LV0Z",
+      "kind": "customer",
+      "name": "Tengri Trading LLP"
+    },
+    {
+      "entity_id": "CUS-MMUG",
+      "kind": "customer",
+      "name": "Nomad Build Partners"
+    },
+    {
+      "entity_id": "CUS-NNJ1",
+      "kind": "customer",
+      "name": "Kazyna Motors Partners"
+    },
+    {
+      "entity_id": "CUS-QRND",
+      "kind": "customer",
+      "name": "Irtysh Analytics JSC"
+    },
+    {
+      "entity_id": "CUS-SCYF",
+      "kind": "customer",
+      "name": "Zhetysu Energy Group"
+    },
+    {
+      "entity_id": "CUS-UCPW",
+      "kind": "customer",
+      "name": "Aral Energy JSC"
+    },
+    {
+      "entity_id": "CUS-VQ2S",
+      "kind": "customer",
+      "name": "Baikonur Pharma Group"
+    },
+    {
+      "entity_id": "CUS-VW9L",
+      "kind": "customer",
+      "name": "Orda Digital Partners"
+    },
+    {
+      "entity_id": "VEN-0LCL",
+      "kind": "vendor",
+      "name": "Steppe Build Group"
+    },
+    {
+      "entity_id": "VEN-GKM8",
+      "kind": "vendor",
+      "name": "Baikonur Systems LLP"
+    },
+    {
+      "entity_id": "VEN-JAJZ",
+      "kind": "vendor",
+      "name": "Shanyrak Agro JSC"
+    },
+    {
+      "entity_id": "VEN-LIB2",
+      "kind": "vendor",
+      "name": "Shanyrak Foods JSC"
+    },
+    {
+      "entity_id": "VEN-LUFS",
+      "kind": "vendor",
+      "name": "Ulytau Analytics LLP"
+    },
+    {
+      "entity_id": "VEN-P06B",
+      "kind": "vendor",
+      "name": "Samruk Motors JSC"
+    },
+    {
+      "entity_id": "VEN-T8HM",
+      "kind": "vendor",
+      "name": "Ulytau Energy Partners"
+    },
+    {
+      "entity_id": "VEN-U4N2",
+      "kind": "vendor",
+      "name": "Irtysh Energy Partners"
+    }
+  ],
+  "env_version": "1.5.1",
+  "episode_id": "ep-471cbbdecbf3",
+  "null_encoding": {
+    "csv": "empty cell",
+    "json": "null"
+  },
+  "period_end": "2026-07-31T23:59:59+06:00",
+  "period_start": "2026-07-01T00:00:00+06:00",
+  "record_counts": {
+    "fx": 135,
+    "invoices": 77,
+    "ledger": 480,
+    "payments": 60
+  },
+  "rounding": {
+    "fx_rate": "decimal string",
+    "mode": "half_even",
+    "money": "integer minor units"
+  },
+  "schema_version": "1.2",
+  "timezone": "UTC+06:00"
+}

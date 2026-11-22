@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "genesis-audit-env"
+version = "1.9.6"
+description = "Reproducible RL environment for training financial-audit agents (Genesis Hackathon, FinTech track)"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1", "jsonschema==4.26.0"]  # full pinned set: requirements-dev.txt
+
+[tool.setuptools.packages.find]
+include = ["auditenv*"]
+
+[tool.setuptools.package-data]
+auditenv = ["schemas/*.json", "presets/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.mypy]
+# `make typecheck` (CI runs it on 3.11). Default checks, no strict mode: the code is typed at its
+# interfaces; internal dicts built from JSON stay `dict`.
+python_version = "3.11"
+files = ["auditenv", "judge_adapter.py"]
+ignore_missing_imports = true
+allow_redefinition = true
+warn_unused_ignores = true

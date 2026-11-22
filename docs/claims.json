@@ -1,0 +1,381 @@
+{
+  "description": "Every headline claim of the README, with the tests that check it, the command that reproduces it and the artifact values it quotes. tests/test_claims.py fails if a listed test no longer exists, if an artifact no longer holds the quoted value, or if the README no longer says it in these words. Run: python -m pytest tests/test_claims.py",
+  "claims": [
+    {
+      "id": "C1",
+      "criterion": "Контракт и изоляция (25)",
+      "claim": "Все проверки контракта C01–C20 из определений жюри проходят через judge_adapter",
+      "readme": "C 20/20",
+      "command": "python -m auditenv.run jury-definitions",
+      "tests": [
+        "tests/test_jury_definitions.py::test_contract_check",
+        "tests/test_jury_definitions.py::test_judge_adapter_is_importable_from_the_repository_root_with_three_entry_points",
+        "tests/test_jury_definitions.py::test_score_episode_contract_shapes"
+      ],
+      "evidence": [
+        {
+          "file": "artifacts/jury_definitions.json",
+          "path": "summary.contract",
+          "equals": "20/20"
+        }
+      ]
+    },
+    {
+      "id": "C2",
+      "criterion": "Контракт и изоляция (25)",
+      "claim": "Закрытый режим не открывает private/: награда 0 до конца эпизода, оценщик — отдельный процесс",
+      "readme": "закрытый режим не открывает `private/`",
+      "command": "python -m pytest tests/test_isolation.py tests/test_hard_audit.py -k private",
+      "tests": [
+        "tests/test_isolation.py::test_env_runs_on_public_files_only",
+        "tests/test_hard_audit.py::test_closed_mode_never_opens_private_and_holds_no_path_to_it",
+        "tests/test_jury_definitions.py::test_closed_scenario_episode",
+        "tests/test_env_contract.py::test_eval_mode_hides_reward_and_diagnostics",
+        "tests/test_grader_secret.py::test_a_key_hides_the_seed_and_still_reproduces"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "C3",
+      "criterion": "Контракт и изоляция (25)",
+      "claim": "Враждебные действия и ответы не роняют среду и не возвращают эталон",
+      "readme": "фаззинг ввода",
+      "command": "python -m pytest tests/test_robustness.py",
+      "tests": [
+        "tests/test_robustness.py::test_random_fuzz_2000_actions",
+        "tests/test_robustness.py::test_rejected_inputs_do_not_echo_truth",
+        "tests/test_submission_artifacts.py::test_eval_mode_leaks_nothing_under_fuzz_on_extreme_episodes"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "C4",
+      "criterion": "Контракт и изоляция (25)",
+      "claim": "Базовые политики играют в песочнице: отдельный процесс только с кодом политики, ничего секретного на диске, пока политика жива, лимиты, свой uid под root. Оценки совпадают с запуском в процессе, все попытки побега заблокированы, а без песочницы те же попытки удаются",
+      "readme": "песочница для политики",
+      "command": "make sandbox",
+      "tests": [
+        "tests/test_sandbox.py::test_sandboxed_baseline_grade_equals_the_in_process_grade",
+        "tests/test_sandbox.py::test_no_truth_and_no_grader_log_on_disk_while_a_policy_runs",
+        "tests/test_sandbox.py::test_escape_attempt_is_blocked",
+        "tests/test_sandbox.py::test_positive_control_the_same_attempt_works_without_the_sandbox",
+        "tests/test_sandbox.py::test_probe_measures_the_layers"
+      ],
+      "evidence": [
+        {
+          "file": "artifacts/sandbox.json",
+          "path": "episodes",
+          "equals": 60
+        },
+        {
+          "file": "artifacts/sandbox.json",
+          "path": "identical_to_in_process",
+          "equals": 60
+        },
+        {
+          "file": "artifacts/sandbox.json",
+          "path": "escapes_blocked.len()",
+          "equals": 19
+        },
+        {
+          "file": "artifacts/sandbox.json",
+          "path": "passed",
+          "equals": true
+        }
+      ]
+    },
+    {
+      "id": "D1",
+      "criterion": "Данные и эталон (25)",
+      "claim": "Все проверки сценариев D01–D20 проходят; сценарий выбирается по имени",
+      "readme": "D 20/20, сценарий передаётся по имени",
+      "command": "python -m auditenv.run jury-definitions",
+      "tests": [
+        "tests/test_jury_definitions.py::test_scenario_names_select_the_documented_matrix_config",
+        "tests/test_jury_definitions.py::test_matrix_documents_every_scenario_with_a_valid_config"
+      ],
+      "evidence": [
+        {
+          "file": "artifacts/jury_definitions.json",
+          "path": "summary.episodes",
+          "equals": "20/20"
+        }
+      ]
+    },
+    {
+      "id": "D2",
+      "criterion": "Данные и эталон (25)",
+      "claim": "Жёсткий аудит: 2000 эпизодов D01–D20 на 100 seed и 240 краевых конфигураций проверены и нашим, и независимым сверщиком",
+      "readme": "жёсткий аудит 2000/2000 и независимый сверщик без импорта нашего кода",
+      "command": "make hard-audit",
+      "tests": [
+        "tests/test_hard_audit.py::test_independent_reconciler_imports_nothing_from_auditenv",
+        "tests/test_hard_audit.py::test_independent_reconciler_accepts_every_jury_scenario",
+        "tests/test_hard_audit.py::test_independent_reconciler_catches_tampering"
+      ],
+      "evidence": [
+        {
+          "file": "artifacts/hard_audit.json",
+          "path": "summary.seed_sweep",
+          "equals": "2000/2000 episodes clean"
+        },
+        {
+          "file": "artifacts/hard_audit.json",
+          "path": "summary.edge_sweep",
+          "equals": "240/240 episodes clean"
+        }
+      ]
+    },
+    {
+      "id": "D3",
+      "criterion": "Данные и эталон (25)",
+      "claim": "Стресс-тест: 600 конфигураций, недопустимые отвергнуты с объяснением, ни одного сбоя",
+      "readme": "стресс-тест на 600 конфигурациях",
+      "command": "make stress",
+      "tests": [
+        "tests/test_submission_artifacts.py::test_extreme_configuration_stress_slice",
+        "tests/test_generator.py::test_fuzzed_configs_always_produce_valid_episodes"
+      ],
+      "evidence": [
+        {
+          "file": "artifacts/stress.json",
+          "path": "configs",
+          "equals": 600
+        },
+        {
+          "file": "artifacts/stress.json",
+          "path": "failed",
+          "equals": 0
+        }
+      ]
+    },
+    {
+      "id": "D4",
+      "criterion": "Данные и эталон (25)",
+      "claim": "Открытые эпизоды побайтно равны свежей генерации; состояние до ошибки восстанавливается",
+      "readme": "побайтно",
+      "command": "python -m pytest tests/test_submission_artifacts.py tests/test_generator.py",
+      "tests": [
+        "tests/test_submission_artifacts.py::test_open_episodes_equal_a_fresh_generation_byte_for_byte",
+        "tests/test_generator.py::test_pre_error_state_is_reconstructible_and_consistent",
+        "tests/test_golden_hashes.py::test_committed_episodes_match_the_golden_hashes",
+        "tests/test_grader_secret.py::test_episodes_do_not_depend_on_python_hash_randomisation"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "R1",
+      "criterion": "Надёжность награды (25)",
+      "claim": "Проверки matcher T01–T20 и примеры M01–M12 проходят, в том числе на плоской фикстуре жюри",
+      "readme": "T 20/20, M 12/12",
+      "command": "python -m auditenv.run jury-definitions",
+      "tests": [
+        "tests/test_jury_definitions.py::test_matcher_and_reward_check",
+        "tests/test_jury_definitions.py::test_matcher_example",
+        "tests/test_jury_definitions.py::test_matcher_check_on_a_flat_jury_made_fixture"
+      ],
+      "evidence": [
+        {
+          "file": "artifacts/jury_definitions.json",
+          "path": "summary.matcher",
+          "equals": "20/20"
+        },
+        {
+          "file": "artifacts/jury_definitions.json",
+          "path": "summary.examples",
+          "equals": "12/12"
+        }
+      ]
+    },
+    {
+      "id": "R2",
+      "criterion": "Надёжность награды (25)",
+      "claim": "Правило выбора пар совпадает с полным перебором на всех 74 963 графах до 4×4",
+      "readme": "74 963",
+      "command": "python -m pytest tests/test_matcher_exhaustive.py tests/test_matcher_metamorphic.py",
+      "tests": [
+        "tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+        "tests/test_matcher_exhaustive.py::test_full_matcher_equals_brute_force_on_random_submissions",
+        "tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says",
+        "tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact"
+      ],
+      "evidence": []
+    },
+    {
+      "id": "R3",
+      "criterion": "Надёжность награды (25)",
+      "claim": "10 свойств награды из раздела 05 измерены через оценщик и выполняются",
+      "readme": "10 свойств награды измерены через оценщик",
+      "command": "python -m auditenv.run check",
+      "tests": [
+        "tests/test_submission_artifacts.py::test_reward_property_holds_on_the_open_episodes"
+      ],
+      "evidence": [
+        {
+          "file": "artifacts/reward_properties.json",
+          "path": "len()",
+          "equals": 10
+        },
+        {
+          "file": "artifacts/reward_properties.json",
+          "path": "all(holds)",
+          "equals": true
+        }
+      ]
+    },
+    {
+      "id": "R4",
+      "criterion": "Надёжность награды (25)",
+      "claim": "Лучшая из 242 поверхностных атак получает в среднем −0.254, ниже порога min(0, reconcile − 0.5)",
+      "readme": "242 поверхностные атаки",
+      "command": "make attacks",
+      "tests": [
+        "tests/test_attacks.py::test_search_reports_references_and_gate",
+        "tests/test_attacks.py::test_attack_space_covers_singles_pairs_and_all"
+      ],
+      "evidence": [
+        {
+          "file": "artifacts/attack_search.json",
+          "path": "attacks",
+          "equals": 242
+        },
+        {
+          "file": "artifacts/attack_search.json",
+          "path": "best_attack.mean_reward",
+          "equals": -0.2542
+        },
+        {
+          "file": "artifacts/attack_search.json",
+          "path": "passed",
+          "equals": true
+        }
+      ]
+    },
+    {
+      "id": "R5",
+      "criterion": "Надёжность награды (25)",
+      "claim": "Ни один поверхностный признак не предсказывает ошибку: максимум точности 0.495 при пороге 0.8",
+      "readme": "максимум точности 0.495 при пороге 0.8",
+      "command": "python -m auditenv.run check",
+      "tests": [
+        "tests/test_shortcuts.py::test_no_surface_feature_predicts_errors"
+      ],
+      "evidence": [
+        {
+          "file": "artifacts/shortcuts.json",
+          "path": "max(precision)",
+          "equals": 0.495
+        }
+      ]
+    },
+    {
+      "id": "R6",
+      "criterion": "Надёжность награды (25)",
+      "claim": "20 реалистичных ошибок оценщика, подсаженных по одной в копию репозитория, ловятся тестами",
+      "readme": "20 из 20 подсаженных ошибок оценщика ловятся тестами",
+      "command": "make mutation",
+      "tests": [
+        "tests/test_mutation_registry.py::test_every_mutant_applies_to_the_current_source_exactly_once"
+      ],
+      "evidence": [
+        {
+          "file": "artifacts/mutation.json",
+          "path": "killed",
+          "equals": 20
+        },
+        {
+          "file": "artifacts/mutation.json",
+          "path": "passed",
+          "equals": true
+        }
+      ]
+    },
+    {
+      "id": "P1",
+      "criterion": "Парные проверки (15)",
+      "claim": "Парные проверки P01–P20 проходят, в P16–P20 юникодные ID 80–100 символов; переименование идёт по schemas/id_fields.json и не оставляет старых ID",
+      "readme": "P 20/20",
+      "command": "python -m auditenv.run jury-definitions",
+      "tests": [
+        "tests/test_jury_definitions.py::test_paired_check",
+        "tests/test_id_fields.py::test_renaming_with_the_list_leaves_no_old_id",
+        "tests/test_id_fields.py::test_our_paired_check_copy_carries_no_old_id"
+      ],
+      "evidence": [
+        {
+          "file": "artifacts/jury_definitions.json",
+          "path": "summary.paired",
+          "equals": "20/20"
+        }
+      ]
+    },
+    {
+      "id": "P2",
+      "criterion": "Парные проверки (15)",
+      "claim": "96 «жёстких» пар с перемешанными колонками CSV дают те же оценки",
+      "readme": "96/96",
+      "command": "make hard-audit",
+      "tests": [
+        "tests/test_hard_audit.py::test_hard_pair_unicode_ids_and_shuffles_keep_every_score",
+        "tests/test_hard_audit.py::test_reordered_csv_columns_load_through_the_adapter"
+      ],
+      "evidence": [
+        {
+          "file": "artifacts/hard_audit.json",
+          "path": "summary.hard_pairs",
+          "equals": "96/96 pairs identical"
+        }
+      ]
+    },
+    {
+      "id": "P3",
+      "criterion": "Парные проверки (15)",
+      "claim": "Контрфактические пары: те же книги с одной ошибкой и без неё; двойник валиден, оценщик замечает разницу, эталонный ответ верен в обеих версиях всех 36 пар",
+      "readme": "36 контрфактических пар",
+      "command": "make contrast",
+      "tests": [
+        "tests/test_counterfactual.py::test_twin_differs_by_exactly_the_recorded_change",
+        "tests/test_counterfactual.py::test_twin_is_valid_and_the_grader_notices_the_fact"
+      ],
+      "evidence": [
+        {
+          "file": "artifacts/contrast_pairs.json",
+          "path": "pairs",
+          "equals": 36
+        },
+        {
+          "file": "artifacts/contrast_pairs.json",
+          "path": "invalid_pairs",
+          "equals": 0
+        },
+        {
+          "file": "artifacts/contrast_pairs.json",
+          "path": "by_policy.oracle.pairs_right",
+          "equals": 36
+        },
+        {
+          "file": "artifacts/contrast_pairs.json",
+          "path": "by_policy.reconcile.pairs_right",
+          "equals": 18
+        }
+      ]
+    },
+    {
+      "id": "E1",
+      "criterion": "Инженерия (10)",
+      "claim": "Одна команда проверки работает и в образе без root на файловой системе только для чтения",
+      "readme": "make docker-check-hardened",
+      "command": "make docker-check-hardened",
+      "tests": [
+        "tests/test_jury_simulation.py::test_installed_package_works_from_a_foreign_directory"
+      ],
+      "evidence": [],
+      "logs": [
+        "artifacts/logs/docker_check.log",
+        "artifacts/logs/docker_check_1.9.1.log",
+        "artifacts/logs/docker_check_hardened.log",
+        "artifacts/logs/docker_isolated.log"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "base_currency": "KZT",
+  "config_version": "1.0.0",
+  "currency_exponents": {
+    "EUR": 2,
+    "JPY": 0,
+    "KZT": 2,
+    "USD": 2
+  },
+  "document_count": 89,
+  "entities": [
+    {
+      "entity_id": "CUS-2KVN",
+      "kind": "customer",
+      "name": "Irtysh Agro LLP"
+    },
+    {
+      "entity_id": "CUS-2S1W",
+      "kind": "customer",
+      "name": "Steppe Media Partners"
+    },
+    {
+      "entity_id": "CUS-579N",
+      "kind": "customer",
+      "name": "Irtysh Digital Group"
+    },
+    {
+      "entity_id": "CUS-5WCF",
+      "kind": "customer",
+      "name": "Baikonur Foods LLP"
+    },
+    {
+      "entity_id": "CUS-C0RQ",
+      "kind": "customer",
+      "name": "Baikonur Systems JSC"
+    },
+    {
+      "entity_id": "CUS-F0NT",
+      "kind": "customer",
+      "name": "Ulytau Build Partners"
+    },
+    {
+      "entity_id": "CUS-L293",
+      "kind": "customer",
+      "name": "Shanyrak Trading Group"
+    },
+    {
+      "entity_id": "CUS-LYPI",
+      "kind": "customer",
+      "name": "Steppe Analytics Group"
+    },
+    {
+      "entity_id": "CUS-NNQ4",
+      "kind": "customer",
+      "name": "Ulytau Pharma LLP"
+    },
+    {
+      "entity_id": "CUS-RX0D",
+      "kind": "customer",
+      "name": "Altyn Build Group"
+    },
+    {
+      "entity_id": "CUS-SRJT",
+      "kind": "customer",
+      "name": "Zhetysu Pharma JSC"
+    },
+    {
+      "entity_id": "CUS-YPRE",
+      "kind": "customer",
+      "name": "Tengri Logistics Group"
+    },
+    {
+      "entity_id": "CUS-YWH7",
+      "kind": "customer",
+      "name": "Orda Analytics Partners"
+    },
+    {
+      "entity_id": "CUS-Z6N1",
+      "kind": "customer",
+      "name": "Tengri Logistics LLP"
+    },
+    {
+      "entity_id": "CUS-ZMDB",
+      "kind": "customer",
+      "name": "Atameken Logistics Group"
+    },
+    {
+      "entity_id": "VEN-160Z",
+      "kind": "vendor",
+      "name": "Atameken Systems JSC"
+    },
+    {
+      "entity_id": "VEN-58VT",
+      "kind": "vendor",
+      "name": "Kaspi Digital LLP"
+    },
+    {
+      "entity_id": "VEN-5N27",
+      "kind": "vendor",
+      "name": "Atameken Trading LLP"
+    },
+    {
+      "entity_id": "VEN-I29W",
+      "kind": "vendor",
+      "name": "Shanyrak Trading Partners"
+    },
+    {
+      "entity_id": "VEN-P36W",
+      "kind": "vendor",
+      "name": "Steppe Analytics LLP"
+    },
+    {
+      "entity_id": "VEN-SNUN",
+      "kind": "vendor",
+      "name": "Tulpar Trading Partners"
+    },
+    {
+      "entity_id": "VEN-XAMJ",
+      "kind": "vendor",
+      "name": "Ulytau Textile Group"
+    }
+  ],
+  "env_version": "1.5.1",
+  "episode_id": "ep-229771416f2c",
+  "null_encoding": {
+    "csv": "empty cell",
+    "json": "null"
+  },
+  "period_end": "2026-06-30T23:59:59+00:00",
+  "period_start": "2026-06-01T00:00:00+00:00",
+  "record_counts": {
+    "fx": 132,
+    "invoices": 58,
+    "ledger": 584,
+    "payments": 31
+  },
+  "rounding": {
+    "fx_rate": "decimal string",
+    "mode": "half_even",
+    "money": "integer minor units"
+  },
+  "schema_version": "1.2",
+  "timezone": "UTC+00:00"
+}

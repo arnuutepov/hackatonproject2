@@ -1,0 +1,109 @@
+{
+  "base_currency": "KZT",
+  "config_version": "1.0.0",
+  "currency_exponents": {
+    "EUR": 2,
+    "JPY": 0,
+    "KZT": 2,
+    "USD": 2
+  },
+  "document_count": 86,
+  "entities": [
+    {
+      "entity_id": "CUS-7YR7",
+      "kind": "customer",
+      "name": "Kaspi Agro Partners"
+    },
+    {
+      "entity_id": "CUS-89O7",
+      "kind": "customer",
+      "name": "Baikonur Build LLP"
+    },
+    {
+      "entity_id": "CUS-8MWD",
+      "kind": "customer",
+      "name": "Saryarka Agro JSC"
+    },
+    {
+      "entity_id": "CUS-B2JZ",
+      "kind": "customer",
+      "name": "Baikonur Retail Group"
+    },
+    {
+      "entity_id": "CUS-FCWW",
+      "kind": "customer",
+      "name": "Zhetysu Agro Partners"
+    },
+    {
+      "entity_id": "CUS-NCGA",
+      "kind": "customer",
+      "name": "Zhetysu Foods JSC"
+    },
+    {
+      "entity_id": "CUS-NTPQ",
+      "kind": "customer",
+      "name": "Samruk Logistics Partners"
+    },
+    {
+      "entity_id": "CUS-UMTL",
+      "kind": "customer",
+      "name": "Zhetysu Systems Partners"
+    },
+    {
+      "entity_id": "CUS-YIER",
+      "kind": "customer",
+      "name": "Steppe Trading Partners"
+    },
+    {
+      "entity_id": "VEN-291R",
+      "kind": "vendor",
+      "name": "Orda Media Partners"
+    },
+    {
+      "entity_id": "VEN-2HFW",
+      "kind": "vendor",
+      "name": "Orda Pharma LLP"
+    },
+    {
+      "entity_id": "VEN-P3X5",
+      "kind": "vendor",
+      "name": "Nomad Logistics LLP"
+    },
+    {
+      "entity_id": "VEN-S6S2",
+      "kind": "vendor",
+      "name": "Shanyrak Trading JSC"
+    },
+    {
+      "entity_id": "VEN-UXWK",
+      "kind": "vendor",
+      "name": "Ulytau Trading JSC"
+    },
+    {
+      "entity_id": "VEN-VUH2",
+      "kind": "vendor",
+      "name": "Tulpar Energy Partners"
+    }
+  ],
+  "env_version": "1.5.1",
+  "episode_id": "ep-7fe6e52ff3b1",
+  "null_encoding": {
+    "csv": "empty cell",
+    "json": "null"
+  },
+  "period_end": "2026-04-30T23:59:59+05:00",
+  "period_start": "2026-04-01T00:00:00+05:00",
+  "record_counts": {
+    "fx": 132,
+    "invoices": 51,
+    "ledger": 376,
+    "payments": 35
+  },
+  "rounding": {
+    "fx_rate": "decimal string",
+    "mode": "half_even",
+    "money": "integer minor units"
+  },
+  "schema_version": "1.2",
+  "timezone": "UTC+05:00"
+}

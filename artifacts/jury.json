@@ -1,0 +1,169 @@
+{
+  "composition": {
+    "clean": 5,
+    "interacting": 5,
+    "standard": 10
+  },
+  "episodes": 20,
+  "paired": {
+    "renamed_episodes_revalidated": 20,
+    "total": 40,
+    "unchanged": 40
+  },
+  "passed": true,
+  "policies": {
+    "flag_all": {
+      "all": {
+        "episodes": 20,
+        "f1": 0.0,
+        "precision_pooled": 0.0,
+        "recall_pooled": 0.0,
+        "return": -1.0,
+        "seconds_per_episode": 0.1169,
+        "steps": 2.75
+      },
+      "clean": {
+        "episodes": 5,
+        "f1": 0.0,
+        "precision_pooled": 0.0,
+        "recall_pooled": null,
+        "return": -1.0,
+        "seconds_per_episode": 0.0683,
+        "steps": 2.4
+      },
+      "interacting": {
+        "episodes": 5,
+        "f1": 0.0,
+        "precision_pooled": 0.0,
+        "recall_pooled": 0.0,
+        "return": -1.0,
+        "seconds_per_episode": 0.1478,
+        "steps": 2.6
+      },
+      "standard": {
+        "episodes": 10,
+        "f1": 0.0,
+        "precision_pooled": 0.0,
+        "recall_pooled": 0.0,
+        "return": -1.0,
+        "seconds_per_episode": 0.1257,
+        "steps": 3.0
+      }
+    },
+    "oracle": {
+      "all": {
+        "episodes": 20,
+        "f1": 1.0,
+        "precision_pooled": 1.0,
+        "recall_pooled": 1.0,
+        "return": 1.0,
+        "seconds_per_episode": 0.1112,
+        "steps": 0.0
+      },
+      "clean": {
+        "episodes": 5,
+        "f1": 1.0,
+        "precision_pooled": null,
+        "recall_pooled": null,
+        "return": 1.0,
+        "seconds_per_episode": 0.067,
+        "steps": 0.0
+      },
+      "interacting": {
+        "episodes": 5,
+        "f1": 1.0,
+        "precision_pooled": 1.0,
+        "recall_pooled": 1.0,
+        "return": 1.0,
+        "seconds_per_episode": 0.1441,
+        "steps": 0.0
+      },
+      "standard": {
+        "episodes": 10,
+        "f1": 1.0,
+        "precision_pooled": 1.0,
+        "recall_pooled": 1.0,
+        "return": 1.0,
+        "seconds_per_episode": 0.1168,
+        "steps": 0.0
+      }
+    },
+    "random": {
+      "all": {
+        "episodes": 20,
+        "f1": 0.0,
+        "precision_pooled": 0.0,
+        "recall_pooled": 0.0,
+        "return": -1.0,
+        "seconds_per_episode": 0.1105,
+        "steps": 14.55
+      },
+      "clean": {
+        "episodes": 5,
+        "f1": 0.0,
+        "precision_pooled": 0.0,
+        "recall_pooled": null,
+        "return": -1.0,
+        "seconds_per_episode": 0.0662,
+        "steps": 7.2
+      },
+      "interacting": {
+        "episodes": 5,
+        "f1": 0.0,
+        "precision_pooled": 0.0,
+        "recall_pooled": 0.0,
+        "return": -1.0,
+        "seconds_per_episode": 0.1412,
+        "steps": 14.4
+      },
+      "standard": {
+        "episodes": 10,
+        "f1": 0.0,
+        "precision_pooled": 0.0,
+        "recall_pooled": 0.0,
+        "return": -1.0,
+        "seconds_per_episode": 0.1172,
+        "steps": 18.3
+      }
+    },
+    "reconcile": {
+      "all": {
+        "episodes": 20,
+        "f1": 0.7321,
+        "precision_pooled": 1.0,
+        "recall_pooled": 0.513,
+        "return": 0.4289,
+        "seconds_per_episode": 0.1161,
+        "steps": 18.4
+      },
+      "clean": {
+        "episodes": 5,
+        "f1": 1.0,
+        "precision_pooled": null,
+        "recall_pooled": null,
+        "return": 0.9668,
+        "seconds_per_episode": 0.0694,
+        "steps": 16.6
+      },
+      "interacting": {
+        "episodes": 5,
+        "f1": 0.7076,
+        "precision_pooled": 1.0,
+        "recall_pooled": 0.5455,
+        "return": 0.376,
+        "seconds_per_episode": 0.1483,
+        "steps": 19.6
+      },
+      "standard": {
+        "episodes": 10,
+        "f1": 0.6104,
+        "precision_pooled": 1.0,
+        "recall_pooled": 0.5,
+        "return": 0.1864,
+        "seconds_per_episode": 0.1233,
+        "steps": 18.7
+      }
+    }
+  },
+  "recipe": "/home/claude/work/genesis-audit-env/configs/hidden_like.json"
+}

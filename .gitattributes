@@ -1,0 +1,7 @@
+# Keep LF line endings on every OS: the open episodes are checked byte for byte
+# against a fresh generation, and Windows checkouts with core.autocrlf would add CR.
+* text=auto eol=lf
+*.zip binary
+*.png binary
+*.jpg binary
+*.mp4 binary

@@ -1,0 +1,13 @@
+{
+  "changes": [
+    {
+      "op": "clean_episode"
+    }
+  ],
+  "config_hash": "ffada785b57da514",
+  "env_version": "1.5.1",
+  "episode_id": "ep-229771416f2c",
+  "generation_attempt": 0,
+  "pre_injection_invariants": "passed",
+  "seed": 109
+}

@@ -1,0 +1,94 @@
+{
+  "base_currency": "KZT",
+  "config_version": "1.0.0",
+  "currency_exponents": {
+    "EUR": 2,
+    "JPY": 0,
+    "KZT": 2,
+    "USD": 2
+  },
+  "document_count": 144,
+  "entities": [
+    {
+      "entity_id": "CUS-4NQ4",
+      "kind": "customer",
+      "name": "Zhetysu Build Group"
+    },
+    {
+      "entity_id": "CUS-5BUJ",
+      "kind": "customer",
+      "name": "Shanyrak Media LLP"
+    },
+    {
+      "entity_id": "CUS-7D9H",
+      "kind": "customer",
+      "name": "Zhetysu Retail Partners"
+    },
+    {
+      "entity_id": "CUS-COJI",
+      "kind": "customer",
+      "name": "Ulytau Motors Group"
+    },
+    {
+      "entity_id": "CUS-HA70",
+      "kind": "customer",
+      "name": "Altyn Digital Partners"
+    },
+    {
+      "entity_id": "CUS-J0YQ",
+      "kind": "customer",
+      "name": "Altyn Textile Partners"
+    },
+    {
+      "entity_id": "CUS-KZV3",
+      "kind": "customer",
+      "name": "Irtysh Energy LLP"
+    },
+    {
+      "entity_id": "CUS-T84O",
+      "kind": "customer",
+      "name": "Aral Agro Partners"
+    },
+    {
+      "entity_id": "CUS-VSQH",
+      "kind": "customer",
+      "name": "Zhetysu Energy JSC"
+    },
+    {
+      "entity_id": "VEN-5N44",
+      "kind": "vendor",
+      "name": "Kaspi Trading Group"
+    },
+    {
+      "entity_id": "VEN-S6PJ",
+      "kind": "vendor",
+      "name": "Kazyna Analytics Partners"
+    },
+    {
+      "entity_id": "VEN-X9RO",
+      "kind": "vendor",
+      "name": "Aral Systems LLP"
+    }
+  ],
+  "env_version": "1.5.1",
+  "episode_id": "ep-43aae1cea67c",
+  "null_encoding": {
+    "csv": "empty cell",
+    "json": "null"
+  },
+  "period_end": "2026-08-31T23:59:59+06:00",
+  "period_start": "2026-08-01T00:00:00+06:00",
+  "record_counts": {
+    "fx": 135,
+    "invoices": 86,
+    "ledger": 588,
+    "payments": 58
+  },
+  "rounding": {
+    "fx_rate": "decimal string",
+    "mode": "half_even",
+    "money": "integer minor units"
+  },
+  "schema_version": "1.2",
+  "timezone": "UTC+06:00"
+}

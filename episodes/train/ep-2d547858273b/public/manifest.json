@@ -1,0 +1,99 @@
+{
+  "base_currency": "KZT",
+  "config_version": "1.0.0",
+  "currency_exponents": {
+    "EUR": 2,
+    "JPY": 0,
+    "KZT": 2,
+    "USD": 2
+  },
+  "document_count": 120,
+  "entities": [
+    {
+      "entity_id": "CUS-11HI",
+      "kind": "customer",
+      "name": "Altyn Analytics JSC"
+    },
+    {
+      "entity_id": "CUS-2RL2",
+      "kind": "customer",
+      "name": "Kazyna Pharma LLP"
+    },
+    {
+      "entity_id": "CUS-6SN4",
+      "kind": "customer",
+      "name": "Kaspi Build Group"
+    },
+    {
+      "entity_id": "CUS-J318",
+      "kind": "customer",
+      "name": "Zhetysu Energy Partners"
+    },
+    {
+      "entity_id": "CUS-JSFQ",
+      "kind": "customer",
+      "name": "Ulytau Analytics Group"
+    },
+    {
+      "entity_id": "CUS-O5L2",
+      "kind": "customer",
+      "name": "Orda Pharma JSC"
+    },
+    {
+      "entity_id": "CUS-QQJI",
+      "kind": "customer",
+      "name": "Orda Foods Group"
+    },
+    {
+      "entity_id": "CUS-RK86",
+      "kind": "customer",
+      "name": "Kaspi Logistics Partners"
+    },
+    {
+      "entity_id": "CUS-TXMC",
+      "kind": "customer",
+      "name": "Ulytau Systems Group"
+    },
+    {
+      "entity_id": "CUS-WWAD",
+      "kind": "customer",
+      "name": "Kaspi Systems JSC"
+    },
+    {
+      "entity_id": "VEN-4CQH",
+      "kind": "vendor",
+      "name": "Steppe Trading JSC"
+    },
+    {
+      "entity_id": "VEN-SSJ6",
+      "kind": "vendor",
+      "name": "Irtysh Motors Group"
+    },
+    {
+      "entity_id": "VEN-U0RD",
+      "kind": "vendor",
+      "name": "Altyn Logistics LLP"
+    }
+  ],
+  "env_version": "1.5.1",
+  "episode_id": "ep-2d547858273b",
+  "null_encoding": {
+    "csv": "empty cell",
+    "json": "null"
+  },
+  "period_end": "2026-08-31T23:59:59+03:00",
+  "period_start": "2026-08-01T00:00:00+03:00",
+  "record_counts": {
+    "fx": 135,
+    "invoices": 70,
+    "ledger": 407,
+    "payments": 50
+  },
+  "rounding": {
+    "fx_rate": "decimal string",
+    "mode": "half_even",
+    "money": "integer minor units"
+  },
+  "schema_version": "1.2",
+  "timezone": "UTC+03:00"
+}

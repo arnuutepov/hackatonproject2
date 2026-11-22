@@ -1,0 +1,162 @@
+[
+  {
+    "episode": "ep-dcd65ddf48af",
+    "policy": "oracle",
+    "reward_after": 1.0,
+    "reward_before": 1.0,
+    "same": true,
+    "twin": "ep-04075c4f55e0"
+  },
+  {
+    "episode": "ep-dcd65ddf48af",
+    "policy": "reconcile",
+    "reward_after": 0.962,
+    "reward_before": 0.962,
+    "same": true,
+    "twin": "ep-04075c4f55e0"
+  },
+  {
+    "episode": "ep-715934ffae59",
+    "policy": "oracle",
+    "reward_after": 1.0,
+    "reward_before": 1.0,
+    "same": true,
+    "twin": "ep-3aed75be992c"
+  },
+  {
+    "episode": "ep-715934ffae59",
+    "policy": "reconcile",
+    "reward_after": 0.3805714285714286,
+    "reward_before": 0.3805714285714286,
+    "same": true,
+    "twin": "ep-3aed75be992c"
+  },
+  {
+    "episode": "ep-43aae1cea67c",
+    "policy": "oracle",
+    "reward_after": 1.0,
+    "reward_before": 1.0,
+    "same": true,
+    "twin": "ep-4fb9d9b24388"
+  },
+  {
+    "episode": "ep-43aae1cea67c",
+    "policy": "reconcile",
+    "reward_after": 0.96,
+    "reward_before": 0.96,
+    "same": true,
+    "twin": "ep-4fb9d9b24388"
+  },
+  {
+    "episode": "ep-7fe6e52ff3b1",
+    "policy": "oracle",
+    "reward_after": 1.0,
+    "reward_before": 1.0,
+    "same": true,
+    "twin": "ep-5acdd7b88b0d"
+  },
+  {
+    "episode": "ep-7fe6e52ff3b1",
+    "policy": "reconcile",
+    "reward_after": 0.42454545454545456,
+    "reward_before": 0.42454545454545456,
+    "same": true,
+    "twin": "ep-5acdd7b88b0d"
+  },
+  {
+    "episode": "ep-568a6603eeba",
+    "policy": "oracle",
+    "reward_after": 1.0,
+    "reward_before": 1.0,
+    "same": true,
+    "twin": "ep-5f84b8620067"
+  },
+  {
+    "episode": "ep-568a6603eeba",
+    "policy": "reconcile",
+    "reward_after": 0.6010588235294116,
+    "reward_before": 0.6010588235294116,
+    "same": true,
+    "twin": "ep-5f84b8620067"
+  },
+  {
+    "episode": "ep-d2ee80304d49",
+    "policy": "oracle",
+    "reward_after": 1.0,
+    "reward_before": 1.0,
+    "same": true,
+    "twin": "ep-767426f83423"
+  },
+  {
+    "episode": "ep-d2ee80304d49",
+    "policy": "reconcile",
+    "reward_after": 0.952,
+    "reward_before": 0.952,
+    "same": true,
+    "twin": "ep-767426f83423"
+  },
+  {
+    "episode": "ep-471cbbdecbf3",
+    "policy": "oracle",
+    "reward_after": 1.0,
+    "reward_before": 1.0,
+    "same": true,
+    "twin": "ep-8b15da56e4c4"
+  },
+  {
+    "episode": "ep-471cbbdecbf3",
+    "policy": "reconcile",
+    "reward_after": 0.16399999999999995,
+    "reward_before": 0.16399999999999995,
+    "same": true,
+    "twin": "ep-8b15da56e4c4"
+  },
+  {
+    "episode": "ep-d3f3a677a078",
+    "policy": "oracle",
+    "reward_after": 1.0,
+    "reward_before": 1.0,
+    "same": true,
+    "twin": "ep-b6c8ee66f226"
+  },
+  {
+    "episode": "ep-d3f3a677a078",
+    "policy": "reconcile",
+    "reward_after": 0.7821818181818181,
+    "reward_before": 0.7821818181818181,
+    "same": true,
+    "twin": "ep-b6c8ee66f226"
+  },
+  {
+    "episode": "ep-72e8728a101f",
+    "policy": "oracle",
+    "reward_after": 1.0,
+    "reward_before": 1.0,
+    "same": true,
+    "twin": "ep-eefd79b8ce08"
+  },
+  {
+    "episode": "ep-72e8728a101f",
+    "policy": "reconcile",
+    "reward_after": 0.7921538461538462,
+    "reward_before": 0.7921538461538462,
+    "same": true,
+    "twin": "ep-eefd79b8ce08"
+  },
+  {
+    "episode": "ep-11fa0b7431df",
+    "policy": "oracle",
+    "reward_after": 1.0,
+    "reward_before": 1.0,
+    "same": true,
+    "twin": "ep-f09fd8e48eef"
+  },
+  {
+    "episode": "ep-11fa0b7431df",
+    "policy": "reconcile",
+    "reward_after": 0.2893333333333333,
+    "reward_before": 0.2893333333333333,
+    "same": true,
+    "twin": "ep-f09fd8e48eef"
+  }
+]

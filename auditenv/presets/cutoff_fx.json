@@ -1,0 +1,10 @@
+{
+  "description": "Exactly one cutoff_fx scenario per episode.",
+  "interactions": {
+    "cutoff_fx": {
+      "enabled": true,
+      "min": 1,
+      "max": 1
+    }
+  }
+}

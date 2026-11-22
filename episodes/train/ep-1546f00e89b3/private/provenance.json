@@ -1,0 +1,272 @@
+{
+  "changes": [
+    {
+      "documents_added": [],
+      "documents_before": [
+        {
+          "currency": "EUR",
+          "doc_id": "DOC-CMOCRHQ8",
+          "due_at": "2026-04-10T13:54:00+03:00",
+          "entity_id": "CUS-R5GN",
+          "invoice_id": "INV-DR6XKD",
+          "issued_at": "2026-03-11T13:54:00+03:00",
+          "line_items": [
+            {
+              "amount_minor": 180351,
+              "description": "Consulting hours (order ORD-MMOVOH)",
+              "line_no": 1,
+              "quantity": 29,
+              "unit_price_minor": 6219
+            },
+            {
+              "amount_minor": 27400,
+              "description": "Training seat (order ORD-MMOVOH)",
+              "line_no": 2,
+              "quantity": 2,
+              "unit_price_minor": 13700
+            }
+          ],
+          "total_minor": 207751
+        }
+      ],
+      "invoice_id": "INV-DR6XKD",
+      "issue_ids": [
+        "ISS-V5K4R",
+        "ISS-K6XPK"
+      ],
+      "issued_at_after": "2026-04-02T11:42:00+03:00",
+      "issued_at_before": "2026-03-11T13:54:00+03:00",
+      "ledger_added": [
+        "L-11TAFEM",
+        "L-BUGIIZH",
+        "L-HTV58GM"
+      ],
+      "ledger_removed": [
+        {
+          "account": "4000",
+          "credit_minor": 14732085,
+          "currency": "KZT",
+          "debit_minor": 0,
+          "entity_id": "CUS-R5GN",
+          "invoice_id": "INV-DR6XKD",
+          "payment_id": null,
+          "row_id": "L-7TP934N",
+          "timestamp": "2026-03-11T13:54:00+03:00"
+        },
+        {
+          "account": "4000",
+          "credit_minor": 96968839,
+          "currency": "KZT",
+          "debit_minor": 0,
+          "entity_id": "CUS-R5GN",
+          "invoice_id": "INV-DR6XKD",
+          "payment_id": null,
+          "row_id": "L-AGVK2L5",
+          "timestamp": "2026-03-11T13:54:00+03:00"
+        },
+        {
+          "account": "1100",
+          "credit_minor": 0,
+          "currency": "KZT",
+          "debit_minor": 111700924,
+          "entity_id": "CUS-R5GN",
+          "invoice_id": "INV-DR6XKD",
+          "payment_id": null,
+          "row_id": "L-OKU4GOR",
+          "timestamp": "2026-03-11T13:54:00+03:00"
+        }
+      ],
+      "posted_at": "2026-03-31T16:37:00+03:00",
+      "rate_date_policy": "2026-04-02",
+      "rate_date_used": "2026-03-31",
+      "scenario": "cutoff_fx"
+    },
+    {
+      "allocation_variant": "partial",
+      "documents_added": [],
+      "documents_before": [
+        {
+          "amount_minor": 122531,
+          "currency": "JPY",
+          "doc_id": "DOC-P8W7KKYP",
+          "entity_id": "CUS-R5GN",
+          "invoice_refs": [
+            {
+              "amount_minor": 122531,
+              "invoice_id": "INV-WPUZOX"
+            }
+          ],
+          "payment_id": "PAY-Q5Q9FW",
+          "timestamp": "2026-03-18T00:57:00+03:00"
+        }
+      ],
+      "issue_ids": [
+        "ISS-OP0Y0",
+        "ISS-O8LON"
+      ],
+      "ledger_added": [
+        "L-3M661BF",
+        "L-5W5NQDU",
+        "L-BACQN09",
+        "L-R64KYMT"
+      ],
+      "ledger_removed": [
+        {
+          "account": "1100",
+          "credit_minor": 38215882,
+          "currency": "KZT",
+          "debit_minor": 0,
+          "entity_id": "CUS-R5GN",
+          "invoice_id": "INV-WPUZOX",
+          "payment_id": "PAY-Q5Q9FW",
+          "row_id": "L-F6QNPSE",
+          "timestamp": "2026-03-18T00:57:00+03:00"
+        },
+        {
+          "account": "1000",
+          "credit_minor": 0,
+          "currency": "KZT",
+          "debit_minor": 38236167,
+          "entity_id": "CUS-R5GN",
+          "invoice_id": null,
+          "payment_id": "PAY-Q5Q9FW",
+          "row_id": "L-QN7WMC8",
+          "timestamp": "2026-03-18T00:57:00+03:00"
+        },
+        {
+          "account": "7900",
+          "credit_minor": 20285,
+          "currency": "KZT",
+          "debit_minor": 0,
+          "entity_id": "CUS-R5GN",
+          "invoice_id": null,
+          "payment_id": "PAY-Q5Q9FW",
+          "row_id": "L-SR99ON2",
+          "timestamp": "2026-03-18T00:57:00+03:00"
+        }
+      ],
+      "payment_id": "PAY-Q5Q9FW",
+      "rate_date_policy": "2026-03-31",
+      "rate_date_used": "2026-03-30",
+      "scenario": "fx_partial_boundary",
+      "timestamp_after": "2026-03-31T02:09:00+03:00",
+      "timestamp_before": "2026-03-18T00:57:00+03:00"
+    },
+    {
+      "allocation_variant": "partial",
+      "documents_added": [],
+      "documents_before": [
+        {
+          "amount_minor": 539948,
+          "currency": "JPY",
+          "doc_id": "DOC-GRUDX2OW",
+          "entity_id": "CUS-Y0LZ",
+          "invoice_refs": [
+            {
+              "amount_minor": 539948,
+              "invoice_id": "INV-UGRHKJ"
+            }
+          ],
+          "payment_id": "PAY-M3DD6N",
+          "timestamp": "2026-03-16T16:05:00+03:00"
+        }
+      ],
+      "issue_ids": [
+        "ISS-XJKHO",
+        "ISS-Y116W"
+      ],
+      "ledger_added": [
+        "L-5ERNW9A",
+        "L-IHHW2YK",
+        "L-SBJOQZF",
+        "L-SVC9BZ5"
+      ],
+      "ledger_removed": [
+        {
+          "account": "1100",
+          "credit_minor": 170592097,
+          "currency": "KZT",
+          "debit_minor": 0,
+          "entity_id": "CUS-Y0LZ",
+          "invoice_id": "INV-UGRHKJ",
+          "payment_id": "PAY-M3DD6N",
+          "row_id": "L-4HLL73R",
+          "timestamp": "2026-03-16T16:05:00+03:00"
+        },
+        {
+          "account": "1000",
+          "credit_minor": 0,
+          "currency": "KZT",
+          "debit_minor": 168403009,
+          "entity_id": "CUS-Y0LZ",
+          "invoice_id": null,
+          "payment_id": "PAY-M3DD6N",
+          "row_id": "L-Q71URDI",
+          "timestamp": "2026-03-16T16:05:00+03:00"
+        },
+        {
+          "account": "7900",
+          "credit_minor": 0,
+          "currency": "KZT",
+          "debit_minor": 2189088,
+          "entity_id": "CUS-Y0LZ",
+          "invoice_id": null,
+          "payment_id": "PAY-M3DD6N",
+          "row_id": "L-WH8UUUM",
+          "timestamp": "2026-03-16T16:05:00+03:00"
+        }
+      ],
+      "payment_id": "PAY-M3DD6N",
+      "rate_date_policy": "2026-03-31",
+      "rate_date_used": "2026-03-30",
+      "scenario": "fx_partial_boundary",
+      "timestamp_after": "2026-03-31T02:22:00+03:00",
+      "timestamp_before": "2026-03-16T16:05:00+03:00"
+    },
+    {
+      "booked": 2369181517,
+      "correct": 15320869,
+      "documents_added": [],
+      "documents_before": [],
+      "invoice_id": "INV-NY2IFP",
+      "issue_id": "ISS-YPLRQ",
+      "ledger_added": [
+        "L-PUBDYM6",
+        "L-QORSH64"
+      ],
+      "ledger_removed": [
+        {
+          "account": "1100",
+          "credit_minor": 0,
+          "currency": "KZT",
+          "debit_minor": 15320869,
+          "entity_id": "CUS-8TP9",
+          "invoice_id": "INV-NY2IFP",
+          "payment_id": null,
+          "row_id": "L-G67PG8N",
+          "timestamp": "2026-03-30T18:18:00+03:00"
+        },
+        {
+          "account": "4000",
+          "credit_minor": 15320869,
+          "currency": "KZT",
+          "debit_minor": 0,
+          "entity_id": "CUS-8TP9",
+          "invoice_id": "INV-NY2IFP",
+          "payment_id": null,
+          "row_id": "L-L4GBLYF",
+          "timestamp": "2026-03-30T18:18:00+03:00"
+        }
+      ],
+      "mistake": "USD rate used for a JPY document",
+      "op": "fx_conversion",
+      "target": "invoice"
+    }
+  ],
+  "config_hash": "e79351aba99aaea6",
+  "env_version": "1.5.1",
+  "episode_id": "ep-1546f00e89b3",
+  "generation_attempt": 0,
+  "pre_injection_invariants": "passed",
+  "seed": 102
+}

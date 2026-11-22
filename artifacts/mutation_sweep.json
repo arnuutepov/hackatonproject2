@@ -1,0 +1,1477 @@
+{
+  "killed": 204,
+  "mutants": [
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_wrong_currency_and_amount_outside_tolerance",
+      "id": "S001",
+      "status": "killed",
+      "what": "line 32: 0 -> 1"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_full_matcher_equals_brute_force_on_random_submissions[0]",
+      "id": "S002",
+      "status": "killed",
+      "what": "line 42: condition negated"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "S003",
+      "status": "killed",
+      "what": "line 56: condition negated"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "S004",
+      "status": "killed",
+      "what": "line 58: condition negated"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "S005",
+      "status": "killed",
+      "what": "line 60: condition negated"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_full_answer_beats_silence_on_erroneous_books",
+      "id": "S006",
+      "status": "killed",
+      "what": "line 62: condition negated"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S007",
+      "status": "killed",
+      "what": "line 65: condition negated"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "S008",
+      "status": "killed",
+      "what": "line 56: != -> =="
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "S009",
+      "status": "killed",
+      "what": "line 58: != -> =="
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "S010",
+      "status": "killed",
+      "what": "line 60: != -> =="
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "S011",
+      "status": "killed",
+      "what": "line 62: > -> >="
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "S012",
+      "status": "killed",
+      "what": "line 62: > -> <"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "S013",
+      "status": "killed",
+      "what": "line 65: and -> or"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_full_matcher_equals_brute_force_on_random_submissions[0]",
+      "id": "S014",
+      "status": "killed",
+      "what": "line 51: is -> is not"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-1]",
+      "id": "S015",
+      "status": "killed",
+      "what": "line 57: False -> True"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S016",
+      "status": "killed",
+      "what": "line 59: False -> True"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_wrong_currency_and_amount_outside_tolerance",
+      "id": "S017",
+      "status": "killed",
+      "what": "line 61: False -> True"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "S018",
+      "status": "killed",
+      "what": "line 63: False -> True"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_full_answer_beats_silence_on_erroneous_books",
+      "id": "S019",
+      "status": "killed",
+      "what": "line 65: is not -> is"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S020",
+      "status": "killed",
+      "what": "line 65: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_jury_fixture_layouts.py::test_per_issue_tolerance_and_missing_tables",
+      "id": "S021",
+      "status": "killed",
+      "what": "line 66: False -> True"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S022",
+      "status": "killed",
+      "what": "line 76: condition negated"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S023",
+      "status": "killed",
+      "what": "line 79: condition negated"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S024",
+      "status": "killed",
+      "what": "line 82: False -> True"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S025",
+      "status": "killed",
+      "what": "line 99: condition negated"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S026",
+      "status": "killed",
+      "what": "line 102: condition negated"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_wrong_currency_and_amount_outside_tolerance",
+      "id": "S027",
+      "status": "killed",
+      "what": "line 43: 0 -> 1"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "S028",
+      "status": "killed",
+      "what": "line 62: - -> +"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_evidence_equal_to_the_whole_universe_still_matches",
+      "id": "S029",
+      "status": "killed",
+      "what": "line 65: <= -> <"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "S030",
+      "status": "killed",
+      "what": "line 67: <= -> <"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S031",
+      "status": "killed",
+      "what": "line 76: or -> and"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S032",
+      "status": "killed",
+      "what": "line 79: or -> and"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S033",
+      "status": "killed",
+      "what": "line 84: 1 -> 2"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S034",
+      "status": "killed",
+      "what": "line 99: in -> not in"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S035",
+      "status": "killed",
+      "what": "line 102: == -> !="
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S036",
+      "status": "killed",
+      "what": "line 76: in -> not in"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S037",
+      "status": "killed",
+      "what": "line 76: in -> not in"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S038",
+      "status": "killed",
+      "what": "line 79: not in -> in"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S039",
+      "status": "killed",
+      "what": "line 81: True -> False"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S040",
+      "status": "killed",
+      "what": "line 97: + -> -"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S041",
+      "status": "killed",
+      "what": "line 102: + -> -"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S042",
+      "status": "killed",
+      "what": "line 97: 1 -> 2"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S043",
+      "status": "killed",
+      "what": "line 102: + -> -"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "S044",
+      "status": "killed",
+      "what": "line 102: 1 -> 2"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S045",
+      "status": "killed",
+      "what": "line 38: 30 -> 31"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S046",
+      "status": "killed",
+      "what": "line 39: 10 -> 11"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_structure_limits_are_inclusive_and_exact",
+      "id": "S047",
+      "status": "killed",
+      "what": "line 40: 10 -> 11"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S048",
+      "status": "killed",
+      "what": "line 41: 1000 -> 1001"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_jury_definitions.py::test_long_ids_up_to_256_code_points_are_valid",
+      "id": "S049",
+      "status": "killed",
+      "what": "line 43: 256 -> 257"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S050",
+      "status": "killed",
+      "what": "line 61: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S051",
+      "status": "killed",
+      "what": "line 63: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S052",
+      "status": "killed",
+      "what": "line 65: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S053",
+      "status": "killed",
+      "what": "line 67: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S054",
+      "status": "killed",
+      "what": "line 69: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S055",
+      "status": "killed",
+      "what": "line 71: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S056",
+      "status": "killed",
+      "what": "line 73: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S057",
+      "status": "killed",
+      "what": "line 87: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S058",
+      "status": "killed",
+      "what": "line 90: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-d2ee80304d49-0]",
+      "id": "S059",
+      "status": "killed",
+      "what": "line 102: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S060",
+      "status": "killed",
+      "what": "line 192: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_episode_id_is_informational_not_structural",
+      "id": "S061",
+      "status": "killed",
+      "what": "line 198: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S062",
+      "status": "killed",
+      "what": "line 231: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_structure_limits_are_inclusive_and_exact",
+      "id": "S063",
+      "status": "killed",
+      "what": "line 42: 10 -> 11"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_structure_limits_are_inclusive_and_exact",
+      "id": "S064",
+      "status": "killed",
+      "what": "line 42: 15 -> 16"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S065",
+      "status": "killed",
+      "what": "line 61: or -> and"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S066",
+      "status": "killed",
+      "what": "line 63: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S067",
+      "status": "killed",
+      "what": "line 65: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S068",
+      "status": "killed",
+      "what": "line 67: or -> and"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S069",
+      "status": "killed",
+      "what": "line 69: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S070",
+      "status": "killed",
+      "what": "line 71: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S071",
+      "status": "killed",
+      "what": "line 73: or -> and"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S072",
+      "status": "killed",
+      "what": "line 87: or -> and"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S073",
+      "status": "killed",
+      "what": "line 90: or -> and"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S074",
+      "status": "killed",
+      "what": "line 94: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-d2ee80304d49-0]",
+      "id": "S075",
+      "status": "killed",
+      "what": "line 102: == -> !="
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S076",
+      "status": "killed",
+      "what": "line 119: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S077",
+      "status": "killed",
+      "what": "line 122: + -> -"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S078",
+      "status": "killed",
+      "what": "line 126: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S079",
+      "status": "killed",
+      "what": "line 142: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S080",
+      "status": "killed",
+      "what": "line 146: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S081",
+      "status": "killed",
+      "what": "line 167: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S082",
+      "status": "killed",
+      "what": "line 173: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S083",
+      "status": "killed",
+      "what": "line 192: or -> and"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_episode_id_is_informational_not_structural",
+      "id": "S084",
+      "status": "killed",
+      "what": "line 198: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_episode_id_is_informational_not_structural",
+      "id": "S085",
+      "status": "killed",
+      "what": "line 204: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_episode_id_is_informational_not_structural",
+      "id": "S086",
+      "status": "killed",
+      "what": "line 210: - -> +"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S087",
+      "status": "killed",
+      "what": "line 231: is not -> is"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S088",
+      "status": "killed",
+      "what": "line 49: and -> or"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S089",
+      "status": "killed",
+      "what": "line 61: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S090",
+      "status": "killed",
+      "what": "line 61: != -> =="
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S091",
+      "status": "killed",
+      "what": "line 67: is not -> is"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_structure_limits_are_inclusive_and_exact",
+      "id": "S092",
+      "status": "killed",
+      "what": "line 67: > -> >="
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S093",
+      "status": "killed",
+      "what": "line 67: > -> <"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S094",
+      "status": "killed",
+      "what": "line 73: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_jury_definitions.py::test_matcher_and_reward_check[T20] - a...",
+      "id": "S095",
+      "status": "killed",
+      "what": "line 73: > -> >="
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S096",
+      "status": "killed",
+      "what": "line 73: > -> <"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S097",
+      "status": "killed",
+      "what": "line 87: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S098",
+      "status": "killed",
+      "what": "line 87: not in -> in"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S099",
+      "status": "killed",
+      "what": "line 87: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S100",
+      "status": "killed",
+      "what": "line 90: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_flag_everything_scores_badly - asse...",
+      "id": "S101",
+      "status": "killed",
+      "what": "line 90: > -> >="
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S102",
+      "status": "killed",
+      "what": "line 90: > -> <"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S103",
+      "status": "killed",
+      "what": "line 94: is not -> is"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_jury_definitions.py::test_matcher_and_reward_check[T05] - a...",
+      "id": "S104",
+      "status": "killed",
+      "what": "line 100: + -> -"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_jury_definitions.py::test_matcher_and_reward_check[T05] - a...",
+      "id": "S105",
+      "status": "killed",
+      "what": "line 100: / -> *"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_jury_definitions.py::test_matcher_and_reward_check[T13] - a...",
+      "id": "S106",
+      "status": "killed",
+      "what": "line 101: + -> -"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_jury_definitions.py::test_matcher_and_reward_check[T13] - a...",
+      "id": "S107",
+      "status": "killed",
+      "what": "line 101: / -> *"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-28d09ea0a29b-1]",
+      "id": "S108",
+      "status": "killed",
+      "what": "line 102: + -> -"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-d2ee80304d49-0]",
+      "id": "S109",
+      "status": "killed",
+      "what": "line 102: 0 -> 1"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_full_answer_beats_silence_on_erroneous_books",
+      "id": "S110",
+      "status": "killed",
+      "what": "line 104: / -> *"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S111",
+      "status": "killed",
+      "what": "line 119: in -> not in"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S112",
+      "status": "killed",
+      "what": "line 120: + -> -"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S113",
+      "status": "killed",
+      "what": "line 122: 1 -> 2"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S114",
+      "status": "killed",
+      "what": "line 126: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S115",
+      "status": "killed",
+      "what": "line 129: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S116",
+      "status": "killed",
+      "what": "line 142: in -> not in"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S117",
+      "status": "killed",
+      "what": "line 146: in -> not in"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S118",
+      "status": "killed",
+      "what": "line 148: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S119",
+      "status": "killed",
+      "what": "line 167: in -> not in"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S120",
+      "status": "killed",
+      "what": "line 173: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S121",
+      "status": "killed",
+      "what": "line 175: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S122",
+      "status": "killed",
+      "what": "line 192: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S123",
+      "status": "killed",
+      "what": "line 192: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_episode_id_is_informational_not_structural",
+      "id": "S124",
+      "status": "killed",
+      "what": "line 198: <= -> <"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_jury_definitions.py::test_matcher_example[M09] - TypeError:...",
+      "id": "S125",
+      "status": "killed",
+      "what": "line 204: or -> and"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_lenient_channel_counts_a_malformed_finding_as_a_false_positive",
+      "id": "S126",
+      "status": "killed",
+      "what": "line 212: + -> -"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_episode_id_is_informational_not_structural",
+      "id": "S127",
+      "status": "killed",
+      "what": "line 212: - -> +"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S128",
+      "status": "killed",
+      "what": "line 239: - -> +"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_full_answer_beats_silence_on_erroneous_books",
+      "id": "S129",
+      "status": "killed",
+      "what": "line 239: - -> +"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S130",
+      "status": "killed",
+      "what": "line 241: True -> False"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S131",
+      "status": "killed",
+      "what": "line 49: or -> and"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_structure_limits_are_inclusive_and_exact",
+      "id": "S132",
+      "status": "killed",
+      "what": "line 49: <= -> <"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S133",
+      "status": "killed",
+      "what": "line 87: <= -> <"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-471cbbdecbf3-0]",
+      "id": "S134",
+      "status": "killed",
+      "what": "line 100: + -> -"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-d3f3a677a078-0]",
+      "id": "S135",
+      "status": "killed",
+      "what": "line 101: + -> -"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-28d09ea0a29b-2]",
+      "id": "S136",
+      "status": "killed",
+      "what": "line 102: + -> -"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-43aae1cea67c-0]",
+      "id": "S137",
+      "status": "killed",
+      "what": "line 104: * -> /"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-471cbbdecbf3-1]",
+      "id": "S138",
+      "status": "killed",
+      "what": "line 104: + -> -"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_step_cost_only_slightly_separates_equal_answers",
+      "id": "S139",
+      "status": "killed",
+      "what": "line 108: - -> +"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S140",
+      "status": "killed",
+      "what": "line 116: 0 -> 1"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S141",
+      "status": "killed",
+      "what": "line 116: 0 -> 1"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S142",
+      "status": "killed",
+      "what": "line 120: 1 -> 2"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S143",
+      "status": "killed",
+      "what": "line 129: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S144",
+      "status": "killed",
+      "what": "line 131: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S145",
+      "status": "killed",
+      "what": "line 148: in -> not in"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S146",
+      "status": "killed",
+      "what": "line 175: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S147",
+      "status": "killed",
+      "what": "line 177: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_lenient_channel_marks_findings_past_the_limit_as_malformed",
+      "id": "S148",
+      "status": "killed",
+      "what": "line 204: >= -> >"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_episode_id_is_informational_not_structural",
+      "id": "S149",
+      "status": "killed",
+      "what": "line 204: is not -> is"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_episode_id_is_informational_not_structural",
+      "id": "S150",
+      "status": "killed",
+      "what": "line 212: - -> +"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_lenient_channel_subtracts_the_format_penalty",
+      "id": "S151",
+      "status": "killed",
+      "what": "line 213: - -> +"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S152",
+      "status": "killed",
+      "what": "line 215: is not -> is"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_parsed_feedback_counts_only_the_missed_issues",
+      "id": "S153",
+      "status": "killed",
+      "what": "line 219: False -> True"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "S154",
+      "status": "killed",
+      "what": "line 232: False -> True"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_invalid_submission_reports_zero_tp_and_fp",
+      "id": "S155",
+      "status": "killed",
+      "what": "line 232: 0 -> 1"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_invalid_submission_reports_zero_tp_and_fp",
+      "id": "S156",
+      "status": "killed",
+      "what": "line 232: 0 -> 1"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_structure_limits_are_inclusive_and_exact",
+      "id": "S157",
+      "status": "killed",
+      "what": "line 65: False -> True"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_structure_limits_are_inclusive_and_exact",
+      "id": "S158",
+      "status": "killed",
+      "what": "line 71: True -> False"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_full_answer_beats_silence_on_erroneous_books",
+      "id": "S159",
+      "status": "killed",
+      "what": "line 104: 2 -> 3"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "S160",
+      "status": "killed",
+      "what": "line 104: + -> -"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_full_answer_beats_silence_on_erroneous_books",
+      "id": "S161",
+      "status": "killed",
+      "what": "line 108: - -> +"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_full_answer_beats_silence_on_erroneous_books",
+      "id": "S162",
+      "status": "killed",
+      "what": "line 108: * -> /"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S163",
+      "status": "killed",
+      "what": "line 124: and -> or"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S164",
+      "status": "killed",
+      "what": "line 131: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S165",
+      "status": "killed",
+      "what": "line 133: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S166",
+      "status": "killed",
+      "what": "line 171: == -> !="
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S167",
+      "status": "killed",
+      "what": "line 172: not in -> in"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S168",
+      "status": "killed",
+      "what": "line 177: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S169",
+      "status": "killed",
+      "what": "line 179: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_unparseable_feedback_counts_every_issue_as_missed",
+      "id": "S170",
+      "status": "killed",
+      "what": "line 196: True -> False"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_episode_id_is_informational_not_structural",
+      "id": "S171",
+      "status": "killed",
+      "what": "line 213: - -> +"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_parsed_feedback_counts_only_the_missed_issues",
+      "id": "S172",
+      "status": "killed",
+      "what": "line 217: 1 -> 2"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_jury_definitions.py::test_long_ids_up_to_256_code_points_are_valid",
+      "id": "S173",
+      "status": "killed",
+      "what": "line 50: and -> or"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-43aae1cea67c-0]",
+      "id": "S174",
+      "status": "killed",
+      "what": "line 104: * -> /"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-43aae1cea67c-0]",
+      "id": "S175",
+      "status": "killed",
+      "what": "line 108: * -> /"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_episode_id_is_informational_not_structural",
+      "id": "S176",
+      "status": "killed",
+      "what": "line 108: 1 -> 2"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S177",
+      "status": "killed",
+      "what": "line 124: == -> !="
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S178",
+      "status": "killed",
+      "what": "line 124: == -> !="
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S179",
+      "status": "killed",
+      "what": "line 127: == -> !="
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_guessed_ids_and_unsupported_evidence_are_false_positives",
+      "id": "S180",
+      "status": "killed",
+      "what": "line 133: and -> or"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S181",
+      "status": "killed",
+      "what": "line 179: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S182",
+      "status": "killed",
+      "what": "line 181: condition negated"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_episode_id_is_informational_not_structural",
+      "id": "S183",
+      "status": "killed",
+      "what": "line 213: - -> +"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_full_answer_beats_silence_on_erroneous_books",
+      "id": "S184",
+      "status": "killed",
+      "what": "line 213: * -> /"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_parsed_feedback_counts_only_the_missed_issues",
+      "id": "S185",
+      "status": "killed",
+      "what": "line 217: and -> or"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_full_answer_beats_silence_on_erroneous_books",
+      "id": "S186",
+      "status": "killed",
+      "what": "line 104: 2 -> 3"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_step_cost_only_slightly_separates_equal_answers",
+      "id": "S187",
+      "status": "killed",
+      "what": "line 108: 2 -> 3"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S188",
+      "status": "killed",
+      "what": "line 129: == -> !="
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_guessed_ids_and_unsupported_evidence_are_false_positives",
+      "id": "S189",
+      "status": "killed",
+      "what": "line 133: is not -> is"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S190",
+      "status": "killed",
+      "what": "line 181: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-43aae1cea67c-0]",
+      "id": "S191",
+      "status": "killed",
+      "what": "line 213: * -> /"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_episode_id_is_informational_not_structural",
+      "id": "S192",
+      "status": "killed",
+      "what": "line 213: 1 -> 2"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_parsed_feedback_counts_only_the_missed_issues",
+      "id": "S193",
+      "status": "killed",
+      "what": "line 217: == -> !="
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_parsed_feedback_counts_only_the_missed_issues",
+      "id": "S194",
+      "status": "killed",
+      "what": "line 217: not in -> in"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_jury_fixture_layouts.py::test_per_issue_tolerance_and_missing_tables",
+      "id": "S195",
+      "status": "killed",
+      "what": "line 50: 0 -> 1"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S196",
+      "status": "killed",
+      "what": "line 131: <= -> <"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_unparseable_feedback_counts_every_issue_as_missed",
+      "id": "S197",
+      "status": "killed",
+      "what": "line 194: 1 -> 2"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_episode_id_is_informational_not_structural",
+      "id": "S198",
+      "status": "killed",
+      "what": "line 213: 2 -> 3"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S199",
+      "status": "killed",
+      "what": "line 133: `not` removed"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S200",
+      "status": "killed",
+      "what": "line 179: == -> !="
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_unparseable_feedback_counts_every_issue_as_missed",
+      "id": "S201",
+      "status": "killed",
+      "what": "line 194: == -> !="
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_diagnose_counts_and_names_every_reason_exactly",
+      "id": "S202",
+      "status": "killed",
+      "what": "line 131: - -> +"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": null,
+      "id": "S203",
+      "status": "SURVIVED",
+      "what": "line 133: <= -> <"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S204",
+      "status": "killed",
+      "what": "line 181: <= -> <"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_mutation_survivors.py::test_feedback_codes_say_what_is_wrong_with_each_finding",
+      "id": "S205",
+      "status": "killed",
+      "what": "line 181: - -> +"
+    }
+  ],
+  "operators": [
+    "comparison swap",
+    "arithmetic swap",
+    "and/or swap",
+    "`not` removed",
+    "if condition negated",
+    "True/False swap",
+    "integer + 1"
+  ],
+  "seconds": 691.3,
+  "source_sha256": "cbbd045a45fc4ea5349cbe4534c4f970a120201031bd7d93b63c8434c389fe08",
+  "survived": 1,
+  "survivors": [
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": null,
+      "id": "S203",
+      "status": "SURVIVED",
+      "what": "line 133: <= -> <"
+    }
+  ],
+  "targets": [
+    "auditenv/grader/matcher.py",
+    "auditenv/grader/reward.py"
+  ],
+  "tests": [
+    "tests/test_matcher_exhaustive.py",
+    "tests/test_matcher_metamorphic.py",
+    "tests/test_matcher_reward.py",
+    "tests/test_jury_fixture_layouts.py",
+    "tests/test_jury_definitions.py",
+    "tests/test_mutation_survivors.py",
+    "-k",
+    "not paired_check and not closed_scenario and not contract_check"
+  ],
+  "total": 205,
+  "what": "every single-operator mutant of the grader core, one at a time in a scratch copy; killed = the grader tests fail or hang"
+}

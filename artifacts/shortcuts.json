@@ -1,0 +1,107 @@
+{
+  "any receipt in suspense": {
+    "hits_error": 108,
+    "hits_legit": 198,
+    "leaks": false,
+    "precision": 0.353,
+    "type": "partial_payment"
+  },
+  "booked on first day, business hours": {
+    "hits_error": 12,
+    "hits_legit": 133,
+    "leaks": false,
+    "precision": 0.083,
+    "type": "period_cutoff"
+  },
+  "booked on last day, business hours": {
+    "hits_error": 75,
+    "hits_legit": 258,
+    "leaks": false,
+    "precision": 0.225,
+    "type": "period_cutoff"
+  },
+  "booked receivable has minor units (cents)": {
+    "hits_error": 146,
+    "hits_legit": 3555,
+    "leaks": false,
+    "precision": 0.039,
+    "type": "fx_conversion"
+  },
+  "booking date differs from document date": {
+    "hits_error": 87,
+    "hits_legit": 570,
+    "leaks": false,
+    "precision": 0.132,
+    "type": "period_cutoff"
+  },
+  "foreign receipt at night": {
+    "hits_error": 70,
+    "hits_legit": 363,
+    "leaks": false,
+    "precision": 0.162,
+    "type": "fx_conversion"
+  },
+  "foreign receipt at night on last day": {
+    "hits_error": 64,
+    "hits_legit": 129,
+    "leaks": false,
+    "precision": 0.332,
+    "type": "fx_conversion"
+  },
+  "foreign-currency invoice": {
+    "hits_error": 147,
+    "hits_legit": 1449,
+    "leaks": false,
+    "precision": 0.092,
+    "type": "fx_conversion"
+  },
+  "invoice receipts do not sum to its total": {
+    "hits_error": 0,
+    "hits_legit": 377,
+    "leaks": false,
+    "precision": 0.0,
+    "type": "partial_payment"
+  },
+  "invoice total is a whole amount": {
+    "hits_error": 30,
+    "hits_legit": 1875,
+    "leaks": false,
+    "precision": 0.016,
+    "type": "duplicate_invoice"
+  },
+  "receipt amount has minor units (cents)": {
+    "hits_error": 59,
+    "hits_legit": 2102,
+    "leaks": false,
+    "precision": 0.027,
+    "type": "partial_payment"
+  },
+  "same customer, time and amount": {
+    "hits_error": 82,
+    "hits_legit": 254,
+    "leaks": false,
+    "precision": 0.244,
+    "type": "duplicate_invoice"
+  },
+  "suspense credit has minor units (cents)": {
+    "hits_error": 107,
+    "hits_legit": 109,
+    "leaks": false,
+    "precision": 0.495,
+    "type": "partial_payment"
+  },
+  "suspense credit is a whole amount": {
+    "hits_error": 1,
+    "hits_legit": 89,
+    "leaks": false,
+    "precision": 0.011,
+    "type": "partial_payment"
+  },
+  "suspense row with known payer": {
+    "hits_error": 108,
+    "hits_legit": 119,
+    "leaks": false,
+    "precision": 0.476,
+    "type": "partial_payment"
+  }
+}

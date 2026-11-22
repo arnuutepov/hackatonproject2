@@ -1,0 +1,114 @@
+{
+  "episode_id": "ep-7fe6e52ff3b1",
+  "issues": [
+    {
+      "affected_ids": [
+        "INV-GG0N7F"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "2026-04-16:EUR:KZT",
+          "DOC-X5NGYAVF",
+          "L-1S2OP08"
+        ]
+      ],
+      "expected_amount_minor": 57990,
+      "issue_id": "ISS-8ZT1L",
+      "type": "fx_conversion"
+    },
+    {
+      "affected_ids": [
+        "INV-7WKFSK"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "2026-05-04:EUR:KZT",
+          "DOC-ASMAW5CP",
+          "L-Y4NVA1O"
+        ]
+      ],
+      "expected_amount_minor": 580702,
+      "issue_id": "ISS-AWQ63",
+      "type": "fx_conversion"
+    },
+    {
+      "affected_ids": [
+        "INV-0JQYF4",
+        "INV-1PAIRA"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "DOC-6U9I9G5O",
+          "DOC-J6UCFPXY"
+        ]
+      ],
+      "expected_amount_minor": 107096992,
+      "issue_id": "ISS-LRWO0",
+      "type": "duplicate_invoice"
+    },
+    {
+      "affected_ids": [
+        "PAY-ULNWW6"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "2026-04-30:USD:KZT",
+          "DOC-TZNZYCLK",
+          "L-RNIVG5X"
+        ]
+      ],
+      "expected_amount_minor": 229528,
+      "issue_id": "ISS-LWBLB",
+      "type": "fx_conversion"
+    },
+    {
+      "affected_ids": [
+        "PAY-ULNWW6"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "DOC-TZNZYCLK",
+          "L-0VE7DQI"
+        ]
+      ],
+      "expected_amount_minor": 87310895,
+      "issue_id": "ISS-OOFNY",
+      "type": "partial_payment"
+    },
+    {
+      "affected_ids": [
+        "INV-7WKFSK"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "DOC-ASMAW5CP",
+          "L-Y4NVA1O"
+        ]
+      ],
+      "expected_amount_minor": 141269561,
+      "issue_id": "ISS-QSXOR",
+      "type": "period_cutoff"
+    },
+    {
+      "affected_ids": [
+        "INV-CJ9IPD"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "DOC-2GEC3ZZ9",
+          "L-A2WKDIX"
+        ]
+      ],
+      "expected_amount_minor": 293594250,
+      "issue_id": "ISS-SSON9",
+      "type": "period_cutoff"
+    }
+  ]
+}

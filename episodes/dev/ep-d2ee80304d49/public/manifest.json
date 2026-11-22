@@ -1,0 +1,94 @@
+{
+  "base_currency": "KZT",
+  "config_version": "1.0.0",
+  "currency_exponents": {
+    "EUR": 2,
+    "JPY": 0,
+    "KZT": 2,
+    "USD": 2
+  },
+  "document_count": 63,
+  "entities": [
+    {
+      "entity_id": "CUS-2LMB",
+      "kind": "customer",
+      "name": "Steppe Retail LLP"
+    },
+    {
+      "entity_id": "CUS-CAJH",
+      "kind": "customer",
+      "name": "Nomad Analytics JSC"
+    },
+    {
+      "entity_id": "CUS-IQHI",
+      "kind": "customer",
+      "name": "Aral Analytics Partners"
+    },
+    {
+      "entity_id": "CUS-O5KD",
+      "kind": "customer",
+      "name": "Tulpar Digital JSC"
+    },
+    {
+      "entity_id": "CUS-VFI0",
+      "kind": "customer",
+      "name": "Irtysh Motors JSC"
+    },
+    {
+      "entity_id": "CUS-XM9Z",
+      "kind": "customer",
+      "name": "Orda Digital JSC"
+    },
+    {
+      "entity_id": "CUS-XSRC",
+      "kind": "customer",
+      "name": "Zhetysu Build Partners"
+    },
+    {
+      "entity_id": "VEN-3XZ2",
+      "kind": "vendor",
+      "name": "Tengri Logistics Group"
+    },
+    {
+      "entity_id": "VEN-C0GI",
+      "kind": "vendor",
+      "name": "Shanyrak Agro JSC"
+    },
+    {
+      "entity_id": "VEN-M1HA",
+      "kind": "vendor",
+      "name": "Nomad Digital LLP"
+    },
+    {
+      "entity_id": "VEN-SY5D",
+      "kind": "vendor",
+      "name": "Zhetysu Motors JSC"
+    },
+    {
+      "entity_id": "VEN-Y5FQ",
+      "kind": "vendor",
+      "name": "Irtysh Agro JSC"
+    }
+  ],
+  "env_version": "1.5.1",
+  "episode_id": "ep-d2ee80304d49",
+  "null_encoding": {
+    "csv": "empty cell",
+    "json": "null"
+  },
+  "period_end": "2026-07-31T23:59:59+06:00",
+  "period_start": "2026-07-01T00:00:00+06:00",
+  "record_counts": {
+    "fx": 135,
+    "invoices": 36,
+    "ledger": 894,
+    "payments": 27
+  },
+  "rounding": {
+    "fx_rate": "decimal string",
+    "mode": "half_even",
+    "money": "integer minor units"
+  },
+  "schema_version": "1.2",
+  "timezone": "UTC+06:00"
+}

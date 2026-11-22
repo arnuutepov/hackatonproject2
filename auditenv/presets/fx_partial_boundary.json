@@ -1,0 +1,10 @@
+{
+  "description": "Exactly one fx_partial_boundary scenario per episode.",
+  "interactions": {
+    "fx_partial_boundary": {
+      "enabled": true,
+      "min": 1,
+      "max": 1
+    }
+  }
+}

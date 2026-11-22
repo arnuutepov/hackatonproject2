@@ -1,0 +1,352 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "config.schema.json",
+  "title": "Generator config (partial dicts are merged over defaults; see README, section Конфигурация)",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "config_version": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "split": {
+      "type": "string"
+    },
+    "preset": {
+      "type": "string"
+    },
+    "seeds": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "integer"
+          },
+          {
+            "type": "object",
+            "required": [
+              "seed"
+            ],
+            "properties": {
+              "seed": {
+                "type": "integer"
+              },
+              "overrides": {
+                "type": "object"
+              }
+            },
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "base_currency": {
+      "enum": [
+        "KZT",
+        "USD",
+        "EUR",
+        "JPY"
+      ]
+    },
+    "foreign_currencies": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "KZT",
+          "USD",
+          "EUR",
+          "JPY"
+        ]
+      },
+      "minItems": 2,
+      "uniqueItems": true
+    },
+    "timezones": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "pattern": "^[+-](0\\d|1[0-4]):[0-5]\\d$"
+      }
+    },
+    "n_customers": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "n_vendors": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "n_plain_invoices": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "n_boundary_invoices": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "n_recurring_customers": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "n_unidentified_receipts": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "n_customer_advances": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "n_last_day_invoices": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "n_twin_orders": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "n_refunds": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "n_last_day_night_payments": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "ledger_rows": {
+      "type": "array",
+      "items": {
+        "type": "integer",
+        "minimum": 0
+      },
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "foreign_invoice_share": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "posting_delay_share": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "foreign_night_payment_share": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "clean_probability": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "invoice_outcomes": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "paid_full": {
+          "type": "number",
+          "minimum": 0
+        },
+        "split": {
+          "type": "number",
+          "minimum": 0
+        },
+        "partial_legit": {
+          "type": "number",
+          "minimum": 0
+        },
+        "unpaid": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "force_clean": {
+      "type": "boolean"
+    },
+    "errors": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "duplicate_invoice": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "min": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "partial_payment": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "min": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "missing_share": {
+              "type": "number",
+              "minimum": 0,
+              "maximum": 1
+            }
+          }
+        },
+        "fx_conversion": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "min": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "period_cutoff": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "min": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      }
+    },
+    "interactions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "fx_partial_boundary": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "min": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        },
+        "cutoff_fx": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "enabled": {
+              "type": "boolean"
+            },
+            "min": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "max": {
+              "type": "integer",
+              "minimum": 0
+            }
+          }
+        }
+      }
+    },
+    "max_errors": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 12
+    }
+  }
+}

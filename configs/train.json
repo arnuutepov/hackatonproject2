@@ -1,0 +1,33 @@
+{
+  "config_version": "1.0.0",
+  "description": "Open training split. Hidden evaluation uses different seeds and parameter combinations. 7 episodes with errors, 3 clean.",
+  "split": "train",
+  "seeds": [
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    {
+      "seed": 108,
+      "overrides": {
+        "force_clean": true
+      }
+    },
+    {
+      "seed": 109,
+      "overrides": {
+        "force_clean": true
+      }
+    },
+    {
+      "seed": 110,
+      "overrides": {
+        "force_clean": true
+      }
+    }
+  ],
+  "clean_probability": 0.0
+}

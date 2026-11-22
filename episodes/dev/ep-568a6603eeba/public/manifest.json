@@ -1,0 +1,154 @@
+{
+  "base_currency": "KZT",
+  "config_version": "1.0.0",
+  "currency_exponents": {
+    "EUR": 2,
+    "JPY": 0,
+    "KZT": 2,
+    "USD": 2
+  },
+  "document_count": 108,
+  "entities": [
+    {
+      "entity_id": "CUS-0XQB",
+      "kind": "customer",
+      "name": "Nomad Energy Partners"
+    },
+    {
+      "entity_id": "CUS-2ZBK",
+      "kind": "customer",
+      "name": "Qyran Media Partners"
+    },
+    {
+      "entity_id": "CUS-9P9X",
+      "kind": "customer",
+      "name": "Shanyrak Foods Partners"
+    },
+    {
+      "entity_id": "CUS-DS7F",
+      "kind": "customer",
+      "name": "Atameken Agro Partners"
+    },
+    {
+      "entity_id": "CUS-F7KE",
+      "kind": "customer",
+      "name": "Zhetysu Foods Group"
+    },
+    {
+      "entity_id": "CUS-GRX2",
+      "kind": "customer",
+      "name": "Qyran Digital LLP"
+    },
+    {
+      "entity_id": "CUS-H8KM",
+      "kind": "customer",
+      "name": "Altyn Foods Partners"
+    },
+    {
+      "entity_id": "CUS-O460",
+      "kind": "customer",
+      "name": "Kaspi Trading JSC"
+    },
+    {
+      "entity_id": "CUS-OKP6",
+      "kind": "customer",
+      "name": "Atameken Energy LLP"
+    },
+    {
+      "entity_id": "CUS-TUTY",
+      "kind": "customer",
+      "name": "Tengri Foods LLP"
+    },
+    {
+      "entity_id": "CUS-UIW9",
+      "kind": "customer",
+      "name": "Tulpar Media Partners"
+    },
+    {
+      "entity_id": "CUS-ULBX",
+      "kind": "customer",
+      "name": "Orda Energy JSC"
+    },
+    {
+      "entity_id": "CUS-VBA0",
+      "kind": "customer",
+      "name": "Ulytau Foods LLP"
+    },
+    {
+      "entity_id": "CUS-W7YX",
+      "kind": "customer",
+      "name": "Tulpar Agro Group"
+    },
+    {
+      "entity_id": "CUS-Z4IN",
+      "kind": "customer",
+      "name": "Kazyna Textile JSC"
+    },
+    {
+      "entity_id": "CUS-ZEN6",
+      "kind": "customer",
+      "name": "Shanyrak Analytics LLP"
+    },
+    {
+      "entity_id": "VEN-53OH",
+      "kind": "vendor",
+      "name": "Saryarka Trading Partners"
+    },
+    {
+      "entity_id": "VEN-CF4O",
+      "kind": "vendor",
+      "name": "Altyn Textile LLP"
+    },
+    {
+      "entity_id": "VEN-DA0M",
+      "kind": "vendor",
+      "name": "Tulpar Build Partners"
+    },
+    {
+      "entity_id": "VEN-EEJ8",
+      "kind": "vendor",
+      "name": "Nomad Textile LLP"
+    },
+    {
+      "entity_id": "VEN-FSJ3",
+      "kind": "vendor",
+      "name": "Ulytau Media LLP"
+    },
+    {
+      "entity_id": "VEN-MOB3",
+      "kind": "vendor",
+      "name": "Atameken Analytics JSC"
+    },
+    {
+      "entity_id": "VEN-QJTV",
+      "kind": "vendor",
+      "name": "Steppe Textile JSC"
+    },
+    {
+      "entity_id": "VEN-Z2WR",
+      "kind": "vendor",
+      "name": "Aral Energy Partners"
+    }
+  ],
+  "env_version": "1.5.1",
+  "episode_id": "ep-568a6603eeba",
+  "null_encoding": {
+    "csv": "empty cell",
+    "json": "null"
+  },
+  "period_end": "2026-05-31T23:59:59+05:00",
+  "period_start": "2026-05-01T00:00:00+05:00",
+  "record_counts": {
+    "fx": 135,
+    "invoices": 64,
+    "ledger": 482,
+    "payments": 44
+  },
+  "rounding": {
+    "fx_rate": "decimal string",
+    "mode": "half_even",
+    "money": "integer minor units"
+  },
+  "schema_version": "1.2",
+  "timezone": "UTC+05:00"
+}

@@ -1,0 +1,154 @@
+{
+  "base_currency": "KZT",
+  "config_version": "1.0.0",
+  "currency_exponents": {
+    "EUR": 2,
+    "JPY": 0,
+    "KZT": 2,
+    "USD": 2
+  },
+  "document_count": 87,
+  "entities": [
+    {
+      "entity_id": "CUS-0M3I",
+      "kind": "customer",
+      "name": "Shanyrak Motors Partners"
+    },
+    {
+      "entity_id": "CUS-2QXA",
+      "kind": "customer",
+      "name": "Irtysh Trading Partners"
+    },
+    {
+      "entity_id": "CUS-30AZ",
+      "kind": "customer",
+      "name": "Steppe Textile Group"
+    },
+    {
+      "entity_id": "CUS-4W2Z",
+      "kind": "customer",
+      "name": "Aral Foods JSC"
+    },
+    {
+      "entity_id": "CUS-6AIC",
+      "kind": "customer",
+      "name": "Irtysh Logistics JSC"
+    },
+    {
+      "entity_id": "CUS-8NHN",
+      "kind": "customer",
+      "name": "Ulytau Digital JSC"
+    },
+    {
+      "entity_id": "CUS-9E8N",
+      "kind": "customer",
+      "name": "Irtysh Foods Group"
+    },
+    {
+      "entity_id": "CUS-A0QA",
+      "kind": "customer",
+      "name": "Irtysh Textile LLP"
+    },
+    {
+      "entity_id": "CUS-A4DD",
+      "kind": "customer",
+      "name": "Nomad Energy Group"
+    },
+    {
+      "entity_id": "CUS-A4SG",
+      "kind": "customer",
+      "name": "Altyn Analytics JSC"
+    },
+    {
+      "entity_id": "CUS-A93F",
+      "kind": "customer",
+      "name": "Atameken Foods JSC"
+    },
+    {
+      "entity_id": "CUS-CXWQ",
+      "kind": "customer",
+      "name": "Baikonur Textile Group"
+    },
+    {
+      "entity_id": "CUS-DR2P",
+      "kind": "customer",
+      "name": "Aral Agro Partners"
+    },
+    {
+      "entity_id": "CUS-HPDC",
+      "kind": "customer",
+      "name": "Zhetysu Analytics JSC"
+    },
+    {
+      "entity_id": "CUS-KA8W",
+      "kind": "customer",
+      "name": "Kazyna Systems LLP"
+    },
+    {
+      "entity_id": "CUS-OPTD",
+      "kind": "customer",
+      "name": "Shanyrak Digital Group"
+    },
+    {
+      "entity_id": "CUS-SXXK",
+      "kind": "customer",
+      "name": "Ulytau Trading Partners"
+    },
+    {
+      "entity_id": "CUS-WAY5",
+      "kind": "customer",
+      "name": "Altyn Build JSC"
+    },
+    {
+      "entity_id": "VEN-95WC",
+      "kind": "vendor",
+      "name": "Altyn Media Group"
+    },
+    {
+      "entity_id": "VEN-B0VT",
+      "kind": "vendor",
+      "name": "Tulpar Analytics JSC"
+    },
+    {
+      "entity_id": "VEN-C5UF",
+      "kind": "vendor",
+      "name": "Kaspi Pharma Group"
+    },
+    {
+      "entity_id": "VEN-DWW3",
+      "kind": "vendor",
+      "name": "Altyn Logistics Partners"
+    },
+    {
+      "entity_id": "VEN-KJMU",
+      "kind": "vendor",
+      "name": "Orda Analytics Group"
+    },
+    {
+      "entity_id": "VEN-OAMW",
+      "kind": "vendor",
+      "name": "Samruk Trading JSC"
+    }
+  ],
+  "env_version": "1.5.1",
+  "episode_id": "ep-69d6d983797e",
+  "null_encoding": {
+    "csv": "empty cell",
+    "json": "null"
+  },
+  "period_end": "2026-10-31T23:59:59+06:00",
+  "period_start": "2026-10-01T00:00:00+06:00",
+  "record_counts": {
+    "fx": 135,
+    "invoices": 47,
+    "ledger": 461,
+    "payments": 40
+  },
+  "rounding": {
+    "fx_rate": "decimal string",
+    "mode": "half_even",
+    "money": "integer minor units"
+  },
+  "schema_version": "1.2",
+  "timezone": "UTC+06:00"
+}

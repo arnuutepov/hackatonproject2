@@ -1,0 +1,158 @@
+{
+  "killed": 20,
+  "mutants": [
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "M01",
+      "status": "killed",
+      "what": "issue type is not compared"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_jury_definitions.py::test_matcher_example[M02] - auditenv.j...",
+      "id": "M02",
+      "status": "killed",
+      "what": "affected_ids: a superset is accepted instead of the exact set"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-11fa0b7431df-0]",
+      "id": "M03",
+      "status": "killed",
+      "what": "affected_ids compared as lists (a repeated id breaks the match)"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_wrong_currency_and_amount_outside_tolerance",
+      "id": "M04",
+      "status": "killed",
+      "what": "currency is not compared"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "M05",
+      "status": "killed",
+      "what": "amount tolerance one minor unit too wide"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "M06",
+      "status": "killed",
+      "what": "amount tolerance edge excluded"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_jury_fixture_layouts.py::test_per_issue_tolerance_and_missing_tables",
+      "id": "M07",
+      "status": "killed",
+      "what": "per-issue tolerance_minor of a jury fixture ignored"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_jury_fixture_layouts.py::test_per_issue_tolerance_and_missing_tables",
+      "id": "M08",
+      "status": "killed",
+      "what": "evidence that exists nowhere is accepted"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_full_answer_beats_silence_on_erroneous_books",
+      "id": "M09",
+      "status": "killed",
+      "what": "every alternative evidence set required instead of any one"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_guessed_ids_and_unsupported_evidence_are_false_positives",
+      "id": "M10",
+      "status": "killed",
+      "what": "one id of an evidence set is enough"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "M11",
+      "status": "killed",
+      "what": "tie-break takes the largest finding index"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_every_graph_up_to_4_by_4_gets_the_brute_force_answer",
+      "id": "M12",
+      "status": "killed",
+      "what": "greedy matching instead of a maximum matching"
+    },
+    {
+      "file": "auditenv/grader/matcher.py",
+      "first_failure": "FAILED tests/test_matcher_exhaustive.py::test_full_matcher_equals_brute_force_on_random_submissions[2]",
+      "id": "M13",
+      "status": "killed",
+      "what": "tie-break follows truth order instead of issue_id"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_jury_definitions.py::test_long_ids_up_to_256_code_points_are_valid",
+      "id": "M14",
+      "status": "killed",
+      "what": "ids longer than 64 code points rejected (paired checks P16-P20 use 80-100)"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "M15",
+      "status": "killed",
+      "what": "one finding over the limit accepted"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_step_cost_only_slightly_separates_equal_answers",
+      "id": "M16",
+      "status": "killed",
+      "what": "step cost dropped from the reward"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_score_moves_only_the_way_each_change_says[ep-43aae1cea67c-0]",
+      "id": "M17",
+      "status": "killed",
+      "what": "false positives do not lower F1"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_invalid_structure_gives_minus_one",
+      "id": "M18",
+      "status": "killed",
+      "what": "invalid structure scores 0 instead of -1"
+    },
+    {
+      "file": "auditenv/grader/reward.py",
+      "first_failure": "FAILED tests/test_matcher_reward.py::test_silence_beats_false_accusations_on_clean_books",
+      "id": "M19",
+      "status": "killed",
+      "what": "silence on clean books scores as a total failure"
+    },
+    {
+      "file": "auditenv/grader/episode.py",
+      "first_failure": "FAILED tests/test_matcher_metamorphic.py::test_tolerance_edge_is_exact[ep-11fa0b7431df]",
+      "id": "M20",
+      "status": "killed",
+      "what": "fx rate keys DATE:SRC:TGT missing from the evidence universe"
+    }
+  ],
+  "passed": true,
+  "seconds": 134.3,
+  "tests": [
+    "tests/test_matcher_exhaustive.py",
+    "tests/test_matcher_metamorphic.py",
+    "tests/test_matcher_reward.py",
+    "tests/test_jury_fixture_layouts.py",
+    "tests/test_jury_definitions.py",
+    "-k",
+    "not paired_check and not closed_scenario and not contract_check"
+  ],
+  "total": 20,
+  "what": "one realistic grader bug at a time in a scratch copy; killed = the grader tests fail"
+}

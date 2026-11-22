@@ -1,0 +1,144 @@
+{
+  "base_currency": "KZT",
+  "config_version": "1.0.0",
+  "currency_exponents": {
+    "EUR": 2,
+    "JPY": 0,
+    "KZT": 2,
+    "USD": 2
+  },
+  "document_count": 147,
+  "entities": [
+    {
+      "entity_id": "CUS-1Y4O",
+      "kind": "customer",
+      "name": "Shanyrak Media LLP"
+    },
+    {
+      "entity_id": "CUS-6CM0",
+      "kind": "customer",
+      "name": "Saryarka Energy Partners"
+    },
+    {
+      "entity_id": "CUS-6WJ4",
+      "kind": "customer",
+      "name": "Nomad Pharma LLP"
+    },
+    {
+      "entity_id": "CUS-7MJB",
+      "kind": "customer",
+      "name": "Tengri Analytics LLP"
+    },
+    {
+      "entity_id": "CUS-BPWQ",
+      "kind": "customer",
+      "name": "Shanyrak Build JSC"
+    },
+    {
+      "entity_id": "CUS-CFSC",
+      "kind": "customer",
+      "name": "Tengri Energy LLP"
+    },
+    {
+      "entity_id": "CUS-EY45",
+      "kind": "customer",
+      "name": "Ulytau Logistics LLP"
+    },
+    {
+      "entity_id": "CUS-IO5Z",
+      "kind": "customer",
+      "name": "Altyn Trading LLP"
+    },
+    {
+      "entity_id": "CUS-P2S6",
+      "kind": "customer",
+      "name": "Kaspi Digital Group"
+    },
+    {
+      "entity_id": "CUS-Q2BD",
+      "kind": "customer",
+      "name": "Atameken Analytics Partners"
+    },
+    {
+      "entity_id": "CUS-QNIY",
+      "kind": "customer",
+      "name": "Saryarka Agro Partners"
+    },
+    {
+      "entity_id": "CUS-R6SE",
+      "kind": "customer",
+      "name": "Steppe Logistics JSC"
+    },
+    {
+      "entity_id": "CUS-RF2J",
+      "kind": "customer",
+      "name": "Nomad Foods LLP"
+    },
+    {
+      "entity_id": "CUS-U4EZ",
+      "kind": "customer",
+      "name": "Nomad Foods Partners"
+    },
+    {
+      "entity_id": "CUS-VFRV",
+      "kind": "customer",
+      "name": "Steppe Agro LLP"
+    },
+    {
+      "entity_id": "CUS-YVUJ",
+      "kind": "customer",
+      "name": "Steppe Motors Group"
+    },
+    {
+      "entity_id": "VEN-2P7L",
+      "kind": "vendor",
+      "name": "Qyran Textile Group"
+    },
+    {
+      "entity_id": "VEN-45Z9",
+      "kind": "vendor",
+      "name": "Nomad Systems Group"
+    },
+    {
+      "entity_id": "VEN-8FRZ",
+      "kind": "vendor",
+      "name": "Ulytau Textile Partners"
+    },
+    {
+      "entity_id": "VEN-CPGC",
+      "kind": "vendor",
+      "name": "Atameken Systems Group"
+    },
+    {
+      "entity_id": "VEN-HNB4",
+      "kind": "vendor",
+      "name": "Steppe Trading Partners"
+    },
+    {
+      "entity_id": "VEN-T5Z1",
+      "kind": "vendor",
+      "name": "Orda Build Group"
+    }
+  ],
+  "env_version": "1.5.1",
+  "episode_id": "ep-11fa0b7431df",
+  "null_encoding": {
+    "csv": "empty cell",
+    "json": "null"
+  },
+  "period_end": "2026-06-30T23:59:59+06:00",
+  "period_start": "2026-06-01T00:00:00+06:00",
+  "record_counts": {
+    "fx": 132,
+    "invoices": 84,
+    "ledger": 693,
+    "payments": 63
+  },
+  "rounding": {
+    "fx_rate": "decimal string",
+    "mode": "half_even",
+    "money": "integer minor units"
+  },
+  "schema_version": "1.2",
+  "timezone": "UTC+06:00"
+}

@@ -1,0 +1,99 @@
+{
+  "base_currency": "KZT",
+  "config_version": "1.0.0",
+  "currency_exponents": {
+    "EUR": 2,
+    "JPY": 0,
+    "KZT": 2,
+    "USD": 2
+  },
+  "document_count": 74,
+  "entities": [
+    {
+      "entity_id": "CUS-4Z2H",
+      "kind": "customer",
+      "name": "Aral Analytics Group"
+    },
+    {
+      "entity_id": "CUS-4ZVE",
+      "kind": "customer",
+      "name": "Steppe Trading LLP"
+    },
+    {
+      "entity_id": "CUS-7A8W",
+      "kind": "customer",
+      "name": "Zhetysu Logistics LLP"
+    },
+    {
+      "entity_id": "CUS-GLBG",
+      "kind": "customer",
+      "name": "Orda Textile LLP"
+    },
+    {
+      "entity_id": "CUS-UR6J",
+      "kind": "customer",
+      "name": "Aral Foods Group"
+    },
+    {
+      "entity_id": "CUS-X5D1",
+      "kind": "customer",
+      "name": "Aral Media Partners"
+    },
+    {
+      "entity_id": "VEN-917A",
+      "kind": "vendor",
+      "name": "Samruk Textile JSC"
+    },
+    {
+      "entity_id": "VEN-A3ZW",
+      "kind": "vendor",
+      "name": "Nomad Textile JSC"
+    },
+    {
+      "entity_id": "VEN-D2FO",
+      "kind": "vendor",
+      "name": "Kaspi Analytics Partners"
+    },
+    {
+      "entity_id": "VEN-SZMK",
+      "kind": "vendor",
+      "name": "Qyran Agro LLP"
+    },
+    {
+      "entity_id": "VEN-T3LR",
+      "kind": "vendor",
+      "name": "Baikonur Analytics LLP"
+    },
+    {
+      "entity_id": "VEN-U12N",
+      "kind": "vendor",
+      "name": "Irtysh Trading Partners"
+    },
+    {
+      "entity_id": "VEN-ZOTI",
+      "kind": "vendor",
+      "name": "Irtysh Retail LLP"
+    }
+  ],
+  "env_version": "1.5.1",
+  "episode_id": "ep-dcd65ddf48af",
+  "null_encoding": {
+    "csv": "empty cell",
+    "json": "null"
+  },
+  "period_end": "2026-10-31T23:59:59+00:00",
+  "period_start": "2026-10-01T00:00:00+00:00",
+  "record_counts": {
+    "fx": 135,
+    "invoices": 42,
+    "ledger": 645,
+    "payments": 32
+  },
+  "rounding": {
+    "fx_rate": "decimal string",
+    "mode": "half_even",
+    "money": "integer minor units"
+  },
+  "schema_version": "1.2",
+  "timezone": "UTC+00:00"
+}

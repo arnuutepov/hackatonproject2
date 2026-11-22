@@ -1,0 +1,114 @@
+{
+  "episode_id": "ep-471cbbdecbf3",
+  "issues": [
+    {
+      "affected_ids": [
+        "PAY-96SR2A"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "DOC-GZEQETYP",
+          "L-LTB2TO6"
+        ]
+      ],
+      "expected_amount_minor": 179086560,
+      "issue_id": "ISS-67DU3",
+      "type": "partial_payment"
+    },
+    {
+      "affected_ids": [
+        "INV-DLXOLZ"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "DOC-6R0G9IGT",
+          "L-Q7BL5BJ"
+        ]
+      ],
+      "expected_amount_minor": 41058228,
+      "issue_id": "ISS-CFBYM",
+      "type": "period_cutoff"
+    },
+    {
+      "affected_ids": [
+        "INV-ZQ9P2T"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "2026-07-20:JPY:KZT",
+          "DOC-CF5AV3MF",
+          "L-SK2DI6P"
+        ]
+      ],
+      "expected_amount_minor": 28381,
+      "issue_id": "ISS-EVFUQ",
+      "type": "fx_conversion"
+    },
+    {
+      "affected_ids": [
+        "PAY-96SR2A"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "2026-07-31:USD:KZT",
+          "DOC-GZEQETYP",
+          "L-331493U"
+        ]
+      ],
+      "expected_amount_minor": 57941,
+      "issue_id": "ISS-H85ES",
+      "type": "fx_conversion"
+    },
+    {
+      "affected_ids": [
+        "PAY-VJUL22"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "DOC-WAXZOFA9",
+          "L-PF2L5DO"
+        ]
+      ],
+      "expected_amount_minor": 119142142,
+      "issue_id": "ISS-OBQH3",
+      "type": "partial_payment"
+    },
+    {
+      "affected_ids": [
+        "PAY-VJUL22"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "2026-07-31:EUR:KZT",
+          "DOC-WAXZOFA9",
+          "L-TH42FXK"
+        ]
+      ],
+      "expected_amount_minor": 148870,
+      "issue_id": "ISS-OE5SU",
+      "type": "fx_conversion"
+    },
+    {
+      "affected_ids": [
+        "INV-DLXOLZ"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "2026-08-03:JPY:KZT",
+          "DOC-6R0G9IGT",
+          "L-Q7BL5BJ"
+        ]
+      ],
+      "expected_amount_minor": 49206,
+      "issue_id": "ISS-QJSQ8",
+      "type": "fx_conversion"
+    }
+  ]
+}

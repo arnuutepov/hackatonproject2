@@ -1,0 +1,25 @@
+{
+  "description": "Never clean: at least one of each single error type, no scenarios.",
+  "errors": {
+    "duplicate_invoice": {
+      "min": 1
+    },
+    "partial_payment": {
+      "min": 1
+    },
+    "fx_conversion": {
+      "min": 1
+    },
+    "period_cutoff": {
+      "min": 1
+    }
+  },
+  "interactions": {
+    "fx_partial_boundary": {
+      "enabled": false
+    },
+    "cutoff_fx": {
+      "enabled": false
+    }
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "manifest.schema.json",
+  "title": "manifest.json",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "env_version",
+    "config_version",
+    "episode_id",
+    "base_currency",
+    "period_start",
+    "period_end",
+    "timezone",
+    "record_counts",
+    "document_count",
+    "rounding",
+    "currency_exponents",
+    "null_encoding",
+    "entities"
+  ],
+  "properties": {
+    "schema_version": {
+      "type": "string"
+    },
+    "env_version": {
+      "type": "string"
+    },
+    "config_version": {
+      "type": "string"
+    },
+    "episode_id": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 64
+    },
+    "base_currency": {
+      "type": "string",
+      "pattern": "^[A-Z]{3}$"
+    },
+    "period_start": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+    },
+    "period_end": {
+      "type": "string",
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}[+-]\\d{2}:\\d{2}$"
+    },
+    "timezone": {
+      "type": "string",
+      "pattern": "^UTC[+-]\\d{2}:\\d{2}$"
+    },
+    "record_counts": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "ledger",
+        "invoices",
+        "payments",
+        "fx"
+      ],
+      "properties": {
+        "ledger": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "invoices": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "payments": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "fx": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "document_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "rounding": {
+      "type": "object"
+    },
+    "currency_exponents": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "integer"
+      }
+    },
+    "null_encoding": {
+      "type": "object"
+    },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "entity_id",
+          "name",
+          "kind"
+        ],
+        "properties": {
+          "entity_id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 64
+          },
+          "name": {
+            "type": "string"
+          },
+          "kind": {
+            "enum": [
+              "customer",
+              "vendor"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

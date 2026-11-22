@@ -1,0 +1,68 @@
+{
+  "episode_id": "ep-69d6d983797e",
+  "issues": [
+    {
+      "affected_ids": [
+        "INV-V7AAHC"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "2026-11-04:USD:KZT",
+          "DOC-R3L4ATAT",
+          "L-KLDZDY2"
+        ]
+      ],
+      "expected_amount_minor": 580362,
+      "issue_id": "ISS-FLMRK",
+      "type": "fx_conversion"
+    },
+    {
+      "affected_ids": [
+        "INV-4V9N7Q"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "2026-10-23:USD:KZT",
+          "DOC-4RHK844W",
+          "L-EJW843X"
+        ]
+      ],
+      "expected_amount_minor": 223505,
+      "issue_id": "ISS-IA5W5",
+      "type": "fx_conversion"
+    },
+    {
+      "affected_ids": [
+        "INV-Y7SQMQ"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "2026-10-23:EUR:KZT",
+          "DOC-Q2UUBWRQ",
+          "L-72KGM2M"
+        ]
+      ],
+      "expected_amount_minor": 104379,
+      "issue_id": "ISS-KDDOZ",
+      "type": "fx_conversion"
+    },
+    {
+      "affected_ids": [
+        "INV-V7AAHC"
+      ],
+      "currency": "KZT",
+      "evidence_sets": [
+        [
+          "DOC-R3L4ATAT",
+          "L-KLDZDY2"
+        ]
+      ],
+      "expected_amount_minor": 164038732,
+      "issue_id": "ISS-LP9RY",
+      "type": "period_cutoff"
+    }
+  ]
+}

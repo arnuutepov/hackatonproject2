@@ -1,0 +1,154 @@
+{
+  "base_currency": "KZT",
+  "config_version": "1.0.0",
+  "currency_exponents": {
+    "EUR": 2,
+    "JPY": 0,
+    "KZT": 2,
+    "USD": 2
+  },
+  "document_count": 57,
+  "entities": [
+    {
+      "entity_id": "CUS-124J",
+      "kind": "customer",
+      "name": "Altyn Systems JSC"
+    },
+    {
+      "entity_id": "CUS-2E4Z",
+      "kind": "customer",
+      "name": "Tulpar Digital Partners"
+    },
+    {
+      "entity_id": "CUS-4C03",
+      "kind": "customer",
+      "name": "Baikonur Systems Group"
+    },
+    {
+      "entity_id": "CUS-78DD",
+      "kind": "customer",
+      "name": "Irtysh Textile Partners"
+    },
+    {
+      "entity_id": "CUS-7J48",
+      "kind": "customer",
+      "name": "Shanyrak Pharma JSC"
+    },
+    {
+      "entity_id": "CUS-7NS9",
+      "kind": "customer",
+      "name": "Kaspi Energy JSC"
+    },
+    {
+      "entity_id": "CUS-9V70",
+      "kind": "customer",
+      "name": "Tengri Trading Partners"
+    },
+    {
+      "entity_id": "CUS-AJN7",
+      "kind": "customer",
+      "name": "Saryarka Foods LLP"
+    },
+    {
+      "entity_id": "CUS-DIS5",
+      "kind": "customer",
+      "name": "Altyn Energy Partners"
+    },
+    {
+      "entity_id": "CUS-FKTR",
+      "kind": "customer",
+      "name": "Irtysh Pharma Group"
+    },
+    {
+      "entity_id": "CUS-GGAY",
+      "kind": "customer",
+      "name": "Nomad Foods JSC"
+    },
+    {
+      "entity_id": "CUS-IWC5",
+      "kind": "customer",
+      "name": "Shanyrak Pharma Partners"
+    },
+    {
+      "entity_id": "CUS-KR1N",
+      "kind": "customer",
+      "name": "Nomad Agro LLP"
+    },
+    {
+      "entity_id": "CUS-SICI",
+      "kind": "customer",
+      "name": "Aral Digital Partners"
+    },
+    {
+      "entity_id": "CUS-WJZP",
+      "kind": "customer",
+      "name": "Atameken Motors JSC"
+    },
+    {
+      "entity_id": "CUS-ZZDH",
+      "kind": "customer",
+      "name": "Qyran Textile JSC"
+    },
+    {
+      "entity_id": "VEN-8QKA",
+      "kind": "vendor",
+      "name": "Shanyrak Motors Partners"
+    },
+    {
+      "entity_id": "VEN-A50R",
+      "kind": "vendor",
+      "name": "Atameken Media JSC"
+    },
+    {
+      "entity_id": "VEN-HS3E",
+      "kind": "vendor",
+      "name": "Tengri Systems Partners"
+    },
+    {
+      "entity_id": "VEN-MPR9",
+      "kind": "vendor",
+      "name": "Steppe Media LLP"
+    },
+    {
+      "entity_id": "VEN-PB9A",
+      "kind": "vendor",
+      "name": "Steppe Trading Partners"
+    },
+    {
+      "entity_id": "VEN-Q62T",
+      "kind": "vendor",
+      "name": "Qyran Analytics Group"
+    },
+    {
+      "entity_id": "VEN-VNGA",
+      "kind": "vendor",
+      "name": "Tengri Media Partners"
+    },
+    {
+      "entity_id": "VEN-Y9OM",
+      "kind": "vendor",
+      "name": "Shanyrak Foods LLP"
+    }
+  ],
+  "env_version": "1.5.1",
+  "episode_id": "ep-fa848756aa2d",
+  "null_encoding": {
+    "csv": "empty cell",
+    "json": "null"
+  },
+  "period_end": "2026-11-30T23:59:59+00:00",
+  "period_start": "2026-11-01T00:00:00+00:00",
+  "record_counts": {
+    "fx": 132,
+    "invoices": 32,
+    "ledger": 385,
+    "payments": 25
+  },
+  "rounding": {
+    "fx_rate": "decimal string",
+    "mode": "half_even",
+    "money": "integer minor units"
+  },
+  "schema_version": "1.2",
+  "timezone": "UTC+00:00"
+}

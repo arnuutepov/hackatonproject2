@@ -1,0 +1,458 @@
+{
+  "best": {
+    "discount_factor": 0.99,
+    "episodes": 300,
+    "final_epsilon": 0.05,
+    "learning_rate": 0.8,
+    "val_f1": 1.0,
+    "val_return": 0.9548,
+    "val_seeds": 5,
+    "val_std": 0.0,
+    "val_unmasked_return": 0.9082
+  },
+  "finalists": [
+    {
+      "episodes": 300,
+      "f1": 1.0,
+      "lr": 0.8,
+      "return": 0.9548,
+      "runs": 5,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 600,
+      "f1": 1.0,
+      "lr": 0.4,
+      "return": 0.9548,
+      "runs": 5,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 600,
+      "f1": 1.0,
+      "lr": 0.6,
+      "return": 0.9548,
+      "runs": 5,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 600,
+      "f1": 1.0,
+      "lr": 0.8,
+      "return": 0.9548,
+      "runs": 5,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 1000,
+      "f1": 1.0,
+      "lr": 0.4,
+      "return": 0.9548,
+      "runs": 5,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 1000,
+      "f1": 1.0,
+      "lr": 0.6,
+      "return": 0.9548,
+      "runs": 5,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 1000,
+      "f1": 1.0,
+      "lr": 0.8,
+      "return": 0.9548,
+      "runs": 5,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 300,
+      "f1": 0.995,
+      "lr": 0.6,
+      "return": 0.9447,
+      "runs": 5,
+      "std": 0.0202,
+      "steps": 22.6
+    }
+  ],
+  "grid": {
+    "episodes": [
+      150,
+      300,
+      600,
+      1000
+    ],
+    "final_eps": [
+      0.01,
+      0.05,
+      0.1
+    ],
+    "gamma": [
+      0.95,
+      0.99,
+      1.0
+    ],
+    "lr": [
+      0.05,
+      0.1,
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ]
+  },
+  "protocol": {
+    "agent_seeds": [
+      0,
+      1
+    ],
+    "gamma_selection": "masked arm within 0.005 of its best, then the best unmasked arm (no crippled baseline), then the larger gamma",
+    "heldout_untouched": [
+      400000,
+      400199
+    ],
+    "masked": true,
+    "selection": "cells within 0.005 of the best re-run on all verify seeds; then max mean validation return, near-ties (0.005) -> fewer episodes, lower std, default epsilon, lower learning rate",
+    "train_seeds": [
+      300000,
+      300119
+    ],
+    "val_seeds": [
+      500000,
+      500039
+    ],
+    "verify_seeds": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ]
+  },
+  "reference_on_val": {
+    "expert_options": {
+      "episodes": 40,
+      "f1": 1.0,
+      "return": 0.9548,
+      "return_clean": 0.9538,
+      "return_with_errors": 0.9551,
+      "steps": 22.6
+    },
+    "oracle": {
+      "episodes": 40,
+      "f1": 1.0,
+      "return": 1.0,
+      "return_clean": 1.0,
+      "return_with_errors": 1.0,
+      "steps": 0.0
+    },
+    "reconcile": {
+      "episodes": 40,
+      "f1": 0.7566,
+      "return": 0.4739,
+      "return_clean": 0.9598,
+      "return_with_errors": 0.3119,
+      "steps": 19.6
+    },
+    "untrained": {
+      "episodes": 40,
+      "f1": 0.3665,
+      "return": -0.2793,
+      "return_clean": 0.976,
+      "return_with_errors": -0.6978,
+      "steps": 9.95
+    }
+  },
+  "seconds": 1159.6,
+  "stage1": [
+    {
+      "episodes": 150,
+      "f1": 0.7602,
+      "lr": 0.05,
+      "return": 0.4793,
+      "runs": 2,
+      "std": 0.1178,
+      "steps": 22.6
+    },
+    {
+      "episodes": 300,
+      "f1": 0.7356,
+      "lr": 0.05,
+      "return": 0.4345,
+      "runs": 2,
+      "std": 0.0729,
+      "steps": 20.18
+    },
+    {
+      "episodes": 600,
+      "f1": 0.7539,
+      "lr": 0.05,
+      "return": 0.4667,
+      "runs": 2,
+      "std": 0.1051,
+      "steps": 22.6
+    },
+    {
+      "episodes": 1000,
+      "f1": 0.8283,
+      "lr": 0.05,
+      "return": 0.6135,
+      "runs": 2,
+      "std": 0.2519,
+      "steps": 22.6
+    },
+    {
+      "episodes": 150,
+      "f1": 0.7878,
+      "lr": 0.1,
+      "return": 0.5325,
+      "runs": 2,
+      "std": 0.1711,
+      "steps": 22.6
+    },
+    {
+      "episodes": 300,
+      "f1": 0.8007,
+      "lr": 0.1,
+      "return": 0.5603,
+      "runs": 2,
+      "std": 0.1987,
+      "steps": 22.6
+    },
+    {
+      "episodes": 600,
+      "f1": 0.7539,
+      "lr": 0.1,
+      "return": 0.4667,
+      "runs": 2,
+      "std": 0.1051,
+      "steps": 22.6
+    },
+    {
+      "episodes": 1000,
+      "f1": 0.8158,
+      "lr": 0.1,
+      "return": 0.5925,
+      "runs": 2,
+      "std": 0.0181,
+      "steps": 20.4
+    },
+    {
+      "episodes": 150,
+      "f1": 0.8872,
+      "lr": 0.2,
+      "return": 0.7322,
+      "runs": 2,
+      "std": 0.0286,
+      "steps": 22.02
+    },
+    {
+      "episodes": 300,
+      "f1": 0.897,
+      "lr": 0.2,
+      "return": 0.7517,
+      "runs": 2,
+      "std": 0.1527,
+      "steps": 22.02
+    },
+    {
+      "episodes": 600,
+      "f1": 0.8906,
+      "lr": 0.2,
+      "return": 0.738,
+      "runs": 2,
+      "std": 0.0209,
+      "steps": 22.6
+    },
+    {
+      "episodes": 1000,
+      "f1": 0.9553,
+      "lr": 0.2,
+      "return": 0.8665,
+      "runs": 2,
+      "std": 0.0012,
+      "steps": 22.02
+    },
+    {
+      "episodes": 150,
+      "f1": 0.9148,
+      "lr": 0.4,
+      "return": 0.7845,
+      "runs": 2,
+      "std": 0.0809,
+      "steps": 22.6
+    },
+    {
+      "episodes": 300,
+      "f1": 0.9777,
+      "lr": 0.4,
+      "return": 0.9101,
+      "runs": 2,
+      "std": 0.0447,
+      "steps": 22.6
+    },
+    {
+      "episodes": 600,
+      "f1": 1.0,
+      "lr": 0.4,
+      "return": 0.9548,
+      "runs": 2,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 1000,
+      "f1": 1.0,
+      "lr": 0.4,
+      "return": 0.9548,
+      "runs": 2,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 150,
+      "f1": 0.9596,
+      "lr": 0.6,
+      "return": 0.8739,
+      "runs": 2,
+      "std": 0.0809,
+      "steps": 22.6
+    },
+    {
+      "episodes": 300,
+      "f1": 1.0,
+      "lr": 0.6,
+      "return": 0.9548,
+      "runs": 2,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 600,
+      "f1": 1.0,
+      "lr": 0.6,
+      "return": 0.9548,
+      "runs": 2,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 1000,
+      "f1": 1.0,
+      "lr": 0.6,
+      "return": 0.9548,
+      "runs": 2,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 150,
+      "f1": 0.9596,
+      "lr": 0.8,
+      "return": 0.8739,
+      "runs": 2,
+      "std": 0.0809,
+      "steps": 22.6
+    },
+    {
+      "episodes": 300,
+      "f1": 1.0,
+      "lr": 0.8,
+      "return": 0.9548,
+      "runs": 2,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 600,
+      "f1": 1.0,
+      "lr": 0.8,
+      "return": 0.9548,
+      "runs": 2,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "episodes": 1000,
+      "f1": 1.0,
+      "lr": 0.8,
+      "return": 0.9548,
+      "runs": 2,
+      "std": 0.0,
+      "steps": 22.6
+    }
+  ],
+  "stage2": [
+    {
+      "f1": 1.0,
+      "final_eps": 0.01,
+      "return": 0.9548,
+      "runs": 2,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "f1": 1.0,
+      "final_eps": 0.05,
+      "return": 0.9548,
+      "runs": 2,
+      "std": 0.0,
+      "steps": 22.6
+    },
+    {
+      "f1": 1.0,
+      "final_eps": 0.1,
+      "return": 0.9548,
+      "runs": 2,
+      "std": 0.0,
+      "steps": 22.6
+    }
+  ],
+  "stage3": [
+    {
+      "gamma": 0.95,
+      "masked_f1": 1.0,
+      "masked_return": 0.9553,
+      "masked_std": 0.0009,
+      "masked_steps": 22.37,
+      "runs": 5,
+      "unmasked_f1": 0.9559,
+      "unmasked_return": 0.8612,
+      "unmasked_std": 0.165,
+      "unmasked_steps": 27.27
+    },
+    {
+      "gamma": 0.99,
+      "masked_f1": 1.0,
+      "masked_return": 0.9548,
+      "masked_std": 0.0,
+      "masked_steps": 22.6,
+      "runs": 5,
+      "unmasked_f1": 0.9762,
+      "unmasked_return": 0.9082,
+      "unmasked_std": 0.072,
+      "unmasked_steps": 22.14
+    },
+    {
+      "gamma": 1.0,
+      "masked_f1": 1.0,
+      "masked_return": 0.9548,
+      "masked_std": 0.0,
+      "masked_steps": 22.6,
+      "runs": 5,
+      "unmasked_f1": 0.25,
+      "unmasked_return": -0.55,
+      "unmasked_std": 0.0,
+      "unmasked_steps": 100.0
+    }
+  ]
+}

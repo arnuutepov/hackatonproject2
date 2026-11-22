@@ -1,0 +1,870 @@
+{
+  "description": "Сценарии D01-D20 из определений проверок жюри (20.11.2026) через документированные настройки генератора. Каждый config - частичный словарь поверх значений по умолчанию (README, 'Конфигурация'); его принимают generate_episode(seed, config, dir) и reset(seed, {'mode': 'train', 'team_config': config}). Seed выбирает жюри; самопроверка: python -m auditenv.run jury-definitions.",
+  "scenarios": {
+    "D01": {
+      "expect": "clean",
+      "meaning": "обычная сверка: только обычные оплаты и неоплаченные счета",
+      "config": {
+        "force_clean": true,
+        "n_boundary_invoices": [
+          0,
+          0
+        ],
+        "n_recurring_customers": [
+          0,
+          0
+        ],
+        "n_unidentified_receipts": [
+          0,
+          0
+        ],
+        "n_customer_advances": [
+          0,
+          0
+        ],
+        "n_last_day_invoices": [
+          0,
+          0
+        ],
+        "n_twin_orders": [
+          0,
+          0
+        ],
+        "n_refunds": [
+          0,
+          0
+        ],
+        "n_last_day_night_payments": [
+          0,
+          0
+        ],
+        "posting_delay_share": 0,
+        "foreign_night_payment_share": 0,
+        "invoice_outcomes": {
+          "paid_full": 0.75,
+          "split": 0,
+          "partial_legit": 0,
+          "unpaid": 0.25
+        }
+      }
+    },
+    "D02": {
+      "expect": "clean",
+      "meaning": "корректно разбитый платёж: счета, оплаченные двумя платежами",
+      "config": {
+        "force_clean": true,
+        "n_boundary_invoices": [
+          0,
+          0
+        ],
+        "n_recurring_customers": [
+          0,
+          0
+        ],
+        "n_unidentified_receipts": [
+          0,
+          0
+        ],
+        "n_customer_advances": [
+          0,
+          0
+        ],
+        "n_last_day_invoices": [
+          0,
+          0
+        ],
+        "n_twin_orders": [
+          0,
+          0
+        ],
+        "n_refunds": [
+          0,
+          0
+        ],
+        "n_last_day_night_payments": [
+          0,
+          0
+        ],
+        "posting_delay_share": 0,
+        "foreign_night_payment_share": 0,
+        "invoice_outcomes": {
+          "paid_full": 0.25,
+          "split": 0.5,
+          "partial_legit": 0,
+          "unpaid": 0.25
+        }
+      }
+    },
+    "D03": {
+      "expect": "clean",
+      "meaning": "корректный возврат: отрицательный платёж по оплаченному счёту",
+      "config": {
+        "force_clean": true,
+        "n_boundary_invoices": [
+          0,
+          0
+        ],
+        "n_recurring_customers": [
+          0,
+          0
+        ],
+        "n_unidentified_receipts": [
+          0,
+          0
+        ],
+        "n_customer_advances": [
+          0,
+          0
+        ],
+        "n_last_day_invoices": [
+          0,
+          0
+        ],
+        "n_twin_orders": [
+          0,
+          0
+        ],
+        "n_refunds": [
+          3,
+          5
+        ],
+        "n_last_day_night_payments": [
+          0,
+          0
+        ],
+        "posting_delay_share": 0,
+        "foreign_night_payment_share": 0,
+        "invoice_outcomes": {
+          "paid_full": 0.75,
+          "split": 0,
+          "partial_legit": 0,
+          "unpaid": 0.25
+        },
+        "foreign_invoice_share": 0.2
+      }
+    },
+    "D04": {
+      "expect": "clean",
+      "meaning": "законные повторяющиеся суммы: еженедельные подписки и заказы-близнецы",
+      "config": {
+        "force_clean": true,
+        "n_boundary_invoices": [
+          0,
+          0
+        ],
+        "n_recurring_customers": [
+          2,
+          3
+        ],
+        "n_unidentified_receipts": [
+          0,
+          0
+        ],
+        "n_customer_advances": [
+          0,
+          0
+        ],
+        "n_last_day_invoices": [
+          0,
+          0
+        ],
+        "n_twin_orders": [
+          1,
+          2
+        ],
+        "n_refunds": [
+          0,
+          0
+        ],
+        "n_last_day_night_payments": [
+          0,
+          0
+        ],
+        "posting_delay_share": 0,
+        "foreign_night_payment_share": 0,
+        "invoice_outcomes": {
+          "paid_full": 0.75,
+          "split": 0,
+          "partial_legit": 0,
+          "unpaid": 0.25
+        }
+      }
+    },
+    "D05": {
+      "expect": "clean",
+      "meaning": "корректная граница периода и курса: счета у полуночи первого/последнего дня, ночные валютные поступления последнего дня",
+      "config": {
+        "force_clean": true,
+        "n_boundary_invoices": [
+          2,
+          3
+        ],
+        "n_recurring_customers": [
+          0,
+          0
+        ],
+        "n_unidentified_receipts": [
+          0,
+          0
+        ],
+        "n_customer_advances": [
+          0,
+          0
+        ],
+        "n_last_day_invoices": [
+          1,
+          2
+        ],
+        "n_twin_orders": [
+          0,
+          0
+        ],
+        "n_refunds": [
+          0,
+          0
+        ],
+        "n_last_day_night_payments": [
+          1,
+          2
+        ],
+        "posting_delay_share": 0,
+        "foreign_night_payment_share": 0.3,
+        "invoice_outcomes": {
+          "paid_full": 0.75,
+          "split": 0,
+          "partial_legit": 0,
+          "unpaid": 0.25
+        },
+        "foreign_invoice_share": 0.5
+      }
+    },
+    "D06": {
+      "expect": "duplicate_invoice",
+      "meaning": "дубль счёта; законные повторяющиеся суммы и близнецы остаются в данных",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": true,
+            "min": 1,
+            "max": 1
+          },
+          "partial_payment": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "fx_conversion": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "period_cutoff": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "cutoff_fx": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        }
+      }
+    },
+    "D07": {
+      "expect": "duplicate_invoice",
+      "meaning": "дубль счёта; законные повторяющиеся суммы и близнецы остаются в данных",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": true,
+            "min": 1,
+            "max": 1
+          },
+          "partial_payment": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "fx_conversion": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "period_cutoff": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "cutoff_fx": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        }
+      }
+    },
+    "D08": {
+      "expect": "duplicate_invoice",
+      "meaning": "дубль счёта; законные повторяющиеся суммы и близнецы остаются в данных",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": true,
+            "min": 1,
+            "max": 1
+          },
+          "partial_payment": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "fx_conversion": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "period_cutoff": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "cutoff_fx": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        }
+      }
+    },
+    "D09": {
+      "expect": "partial_payment",
+      "meaning": "пропущенное распределение: поступление целиком в 2900",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "partial_payment": {
+            "enabled": true,
+            "min": 1,
+            "max": 1,
+            "missing_share": 1.0
+          },
+          "fx_conversion": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "period_cutoff": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "cutoff_fx": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        }
+      }
+    },
+    "D10": {
+      "expect": "partial_payment",
+      "meaning": "частичное распределение: часть поступления в 2900",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "partial_payment": {
+            "enabled": true,
+            "min": 1,
+            "max": 1,
+            "missing_share": 0.0
+          },
+          "fx_conversion": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "period_cutoff": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "cutoff_fx": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        }
+      }
+    },
+    "D11": {
+      "expect": "partial_payment",
+      "meaning": "пропуск или частичное распределение (по seed)",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "partial_payment": {
+            "enabled": true,
+            "min": 1,
+            "max": 1,
+            "missing_share": 0.5
+          },
+          "fx_conversion": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "period_cutoff": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "cutoff_fx": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        }
+      }
+    },
+    "D12": {
+      "expect": "fx_conversion",
+      "meaning": "неверная дата курса или неверная валютная пара по policy",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "partial_payment": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "fx_conversion": {
+            "enabled": true,
+            "min": 1,
+            "max": 1
+          },
+          "period_cutoff": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "cutoff_fx": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "foreign_invoice_share": 0.5
+      }
+    },
+    "D13": {
+      "expect": "fx_conversion",
+      "meaning": "неверная дата курса или неверная валютная пара по policy",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "partial_payment": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "fx_conversion": {
+            "enabled": true,
+            "min": 1,
+            "max": 1
+          },
+          "period_cutoff": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "cutoff_fx": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "foreign_invoice_share": 0.5
+      }
+    },
+    "D14": {
+      "expect": "period_cutoff",
+      "meaning": "счёт другого периода проведён в этом (граница по timezone manifest)",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "partial_payment": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "fx_conversion": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "period_cutoff": {
+            "enabled": true,
+            "min": 1,
+            "max": 1
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "cutoff_fx": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        }
+      }
+    },
+    "D15": {
+      "expect": "period_cutoff",
+      "meaning": "счёт другого периода проведён в этом (граница по timezone manifest)",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "partial_payment": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "fx_conversion": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "period_cutoff": {
+            "enabled": true,
+            "min": 1,
+            "max": 1
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "cutoff_fx": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        }
+      }
+    },
+    "D16": {
+      "expect": "fx_partial_boundary",
+      "meaning": "сценарий 1: ночное валютное поступление последнего дня по курсу даты UTC + пропуск распределения",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "partial_payment": {
+            "enabled": false,
+            "min": 0,
+            "max": 0,
+            "missing_share": 1.0
+          },
+          "fx_conversion": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "period_cutoff": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": true,
+            "min": 1,
+            "max": 1
+          },
+          "cutoff_fx": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "foreign_invoice_share": 0.5
+      }
+    },
+    "D17": {
+      "expect": "fx_partial_boundary",
+      "meaning": "сценарий 1: то же + частичное распределение",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "partial_payment": {
+            "enabled": false,
+            "min": 0,
+            "max": 0,
+            "missing_share": 0.0
+          },
+          "fx_conversion": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "period_cutoff": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": true,
+            "min": 1,
+            "max": 1
+          },
+          "cutoff_fx": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "foreign_invoice_share": 0.5
+      }
+    },
+    "D18": {
+      "expect": "fx_partial_boundary",
+      "meaning": "сценарий 1: другая валюта и часовой пояс",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "partial_payment": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "fx_conversion": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "period_cutoff": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": true,
+            "min": 1,
+            "max": 1
+          },
+          "cutoff_fx": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "foreign_invoice_share": 0.6,
+        "foreign_currencies": [
+          "EUR",
+          "JPY"
+        ],
+        "timezones": [
+          "+03:00",
+          "+00:00"
+        ]
+      }
+    },
+    "D19": {
+      "expect": "cutoff_fx",
+      "meaning": "сценарий 2: валютный счёт следующего периода проведён последним днём по курсу даты проводки",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "partial_payment": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "fx_conversion": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "period_cutoff": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "cutoff_fx": {
+            "enabled": true,
+            "min": 1,
+            "max": 1
+          }
+        },
+        "foreign_invoice_share": 0.5
+      }
+    },
+    "D20": {
+      "expect": "cutoff_fx",
+      "meaning": "сценарий 2: другая валюта и часовой пояс",
+      "config": {
+        "errors": {
+          "duplicate_invoice": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "partial_payment": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "fx_conversion": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "period_cutoff": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          }
+        },
+        "interactions": {
+          "fx_partial_boundary": {
+            "enabled": false,
+            "min": 0,
+            "max": 0
+          },
+          "cutoff_fx": {
+            "enabled": true,
+            "min": 1,
+            "max": 1
+          }
+        },
+        "foreign_invoice_share": 0.6,
+        "foreign_currencies": [
+          "USD",
+          "JPY"
+        ],
+        "timezones": [
+          "+06:00",
+          "-04:00"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "base_currency": "KZT",
+  "config_version": "1.0.0",
+  "currency_exponents": {
+    "EUR": 2,
+    "JPY": 0,
+    "KZT": 2,
+    "USD": 2
+  },
+  "document_count": 153,
+  "entities": [
+    {
+      "entity_id": "CUS-3VRR",
+      "kind": "customer",
+      "name": "Ulytau Motors Partners"
+    },
+    {
+      "entity_id": "CUS-7516",
+      "kind": "customer",
+      "name": "Tengri Logistics Partners"
+    },
+    {
+      "entity_id": "CUS-9V3H",
+      "kind": "customer",
+      "name": "Zhetysu Systems JSC"
+    },
+    {
+      "entity_id": "CUS-GHHX",
+      "kind": "customer",
+      "name": "Baikonur Systems JSC"
+    },
+    {
+      "entity_id": "CUS-HDOD",
+      "kind": "customer",
+      "name": "Aral Systems Partners"
+    },
+    {
+      "entity_id": "CUS-HNGF",
+      "kind": "customer",
+      "name": "Kazyna Motors Partners"
+    },
+    {
+      "entity_id": "CUS-OAJG",
+      "kind": "customer",
+      "name": "Baikonur Analytics JSC"
+    },
+    {
+      "entity_id": "CUS-T5ZJ",
+      "kind": "customer",
+      "name": "Kazyna Logistics JSC"
+    },
+    {
+      "entity_id": "CUS-VVOE",
+      "kind": "customer",
+      "name": "Altyn Media JSC"
+    },
+    {
+      "entity_id": "CUS-VYUR",
+      "kind": "customer",
+      "name": "Altyn Foods Partners"
+    },
+    {
+      "entity_id": "VEN-0ARN",
+      "kind": "vendor",
+      "name": "Zhetysu Motors LLP"
+    },
+    {
+      "entity_id": "VEN-2ND7",
+      "kind": "vendor",
+      "name": "Aral Logistics Partners"
+    },
+    {
+      "entity_id": "VEN-3P9T",
+      "kind": "vendor",
+      "name": "Aral Foods Partners"
+    },
+    {
+      "entity_id": "VEN-60WF",
+      "kind": "vendor",
+      "name": "Altyn Retail Partners"
+    },
+    {
+      "entity_id": "VEN-BRLI",
+      "kind": "vendor",
+      "name": "Steppe Agro LLP"
+    },
+    {
+      "entity_id": "VEN-DLIV",
+      "kind": "vendor",
+      "name": "Saryarka Build JSC"
+    },
+    {
+      "entity_id": "VEN-H1SG",
+      "kind": "vendor",
+      "name": "Qyran Digital Group"
+    },
+    {
+      "entity_id": "VEN-LPP6",
+      "kind": "vendor",
+      "name": "Baikonur Agro Partners"
+    }
+  ],
+  "env_version": "1.5.1",
+  "episode_id": "ep-201f5b1d3b9b",
+  "null_encoding": {
+    "csv": "empty cell",
+    "json": "null"
+  },
+  "period_end": "2026-10-31T23:59:59+06:00",
+  "period_start": "2026-10-01T00:00:00+06:00",
+  "record_counts": {
+    "fx": 135,
+    "invoices": 87,
+    "ledger": 612,
+    "payments": 66
+  },
+  "rounding": {
+    "fx_rate": "decimal string",
+    "mode": "half_even",
+    "money": "integer minor units"
+  },
+  "schema_version": "1.2",
+  "timezone": "UTC+06:00"
+}

@@ -1,0 +1,9 @@
+  seed_sweep  2000/2000 episodes clean
+  edge_sweep  240/240 episodes clean
+  hard_pairs  96/96 pairs identical
+  realtime_limit busy_58s ok (58.5 s), submit_59_5s ok (59.5 s), idle_61s ok (61.0 s), steps_then_61s ok (61.0 s)
+  HARD AUDIT PASSED (139.9 s)
+
+real	3m21.034s
+user	2m13.394s
+sys	0m2.487s
