@@ -1173,6 +1173,6 @@
   "invalid_pairs": 0,
   "pairs": 36,
   "passed": true,
-  "seconds": 7.0,
+  "seconds": 5.7,
   "what": "counterfactual pairs: the same books with and without one recorded error; a policy is credited only when it is right (no false positive, no miss) on both sides"
 }

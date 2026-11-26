@@ -122,10 +122,10 @@ python examples/jury_run.py --policy mine:MyPolicy --policy oracle --recipe conf
 ## 8. То же в контейнере
 
 ```bash
-docker build -t genesis-audit-env:1.9.6 .
+docker build -t genesis-audit-env:1.9.7 .
 mkdir -p jury-out && chmod a+rwx jury-out
 docker run --rm --network none -e AUDITENV_SECRET='<ключ>' -v "$PWD/jury:/jury:ro" -v "$PWD/jury-out:/out" \
-    genesis-audit-env:1.9.6 python examples/jury_run.py --policy-path /jury --policy mine:MyPolicy \
+    genesis-audit-env:1.9.7 python examples/jury_run.py --policy-path /jury --policy mine:MyPolicy \
     --recipe /jury/hidden.json --paired --out /out
 ```
 

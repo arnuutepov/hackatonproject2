@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "genesis-audit-env"
-version = "1.9.6"
+version = "1.9.7"
 description = "Reproducible RL environment for training financial-audit agents (Genesis Hackathon, FinTech track)"
 requires-python = ">=3.11"
 license = { text = "MIT" }

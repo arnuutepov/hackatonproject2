@@ -181,7 +181,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.005,
+              "seconds": 0.003,
               "tp": 0
             },
             "oracle": {
@@ -192,7 +192,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": 1.0,
-              "seconds": 0.003,
+              "seconds": 0.002,
               "tp": 0
             },
             "random": {
@@ -203,7 +203,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": 0.96,
-              "seconds": 0.006,
+              "seconds": 0.005,
               "tp": 0
             },
             "reconcile": {
@@ -214,7 +214,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": 0.98,
-              "seconds": 0.007,
+              "seconds": 0.004,
               "tp": 0
             }
           }
@@ -324,7 +324,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": 0.97,
-              "seconds": 0.006,
+              "seconds": 0.007,
               "tp": 0
             }
           }
@@ -368,7 +368,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": 0.96,
-              "seconds": 0.004,
+              "seconds": 0.005,
               "tp": 0
             },
             "reconcile": {
@@ -401,7 +401,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.003,
+              "seconds": 0.004,
               "tp": 0
             },
             "oracle": {
@@ -423,7 +423,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": 0.96,
-              "seconds": 0.004,
+              "seconds": 0.005,
               "tp": 0
             },
             "reconcile": {
@@ -434,7 +434,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": 0.974,
-              "seconds": 0.005,
+              "seconds": 0.006,
               "tp": 0
             }
           }
@@ -456,7 +456,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.008,
+              "seconds": 0.005,
               "tp": 0
             },
             "oracle": {
@@ -467,7 +467,7 @@
               "precision": 1.0,
               "recall": 1.0,
               "return": 1.0,
-              "seconds": 0.007,
+              "seconds": 0.004,
               "tp": 1
             },
             "random": {
@@ -478,7 +478,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.01,
+              "seconds": 0.007,
               "tp": 0
             },
             "reconcile": {
@@ -489,7 +489,7 @@
               "precision": 1.0,
               "recall": 1.0,
               "return": 0.96,
-              "seconds": 0.015,
+              "seconds": 0.009,
               "tp": 1
             }
           }
@@ -511,7 +511,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.008,
+              "seconds": 0.004,
               "tp": 0
             },
             "oracle": {
@@ -533,7 +533,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.01,
+              "seconds": 0.006,
               "tp": 0
             },
             "reconcile": {
@@ -544,7 +544,7 @@
               "precision": 1.0,
               "recall": 1.0,
               "return": 0.966,
-              "seconds": 0.013,
+              "seconds": 0.008,
               "tp": 1
             }
           }
@@ -577,7 +577,7 @@
               "precision": 1.0,
               "recall": 1.0,
               "return": 1.0,
-              "seconds": 0.006,
+              "seconds": 0.007,
               "tp": 1
             },
             "random": {
@@ -588,7 +588,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.011,
+              "seconds": 0.01,
               "tp": 0
             },
             "reconcile": {
@@ -632,7 +632,7 @@
               "precision": 1.0,
               "recall": 1.0,
               "return": 1.0,
-              "seconds": 0.004,
+              "seconds": 0.002,
               "tp": 1
             },
             "random": {
@@ -676,7 +676,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.006,
+              "seconds": 0.004,
               "tp": 0
             },
             "oracle": {
@@ -687,7 +687,7 @@
               "precision": 1.0,
               "recall": 1.0,
               "return": 1.0,
-              "seconds": 0.004,
+              "seconds": 0.003,
               "tp": 1
             },
             "random": {
@@ -698,7 +698,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.008,
+              "seconds": 0.005,
               "tp": 0
             },
             "reconcile": {
@@ -709,7 +709,7 @@
               "precision": 1.0,
               "recall": 1.0,
               "return": 0.976,
-              "seconds": 0.009,
+              "seconds": 0.005,
               "tp": 1
             }
           }
@@ -753,7 +753,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.01,
+              "seconds": 0.006,
               "tp": 0
             },
             "reconcile": {
@@ -841,7 +841,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.008,
+              "seconds": 0.004,
               "tp": 0
             },
             "oracle": {
@@ -852,7 +852,7 @@
               "precision": 1.0,
               "recall": 1.0,
               "return": 1.0,
-              "seconds": 0.006,
+              "seconds": 0.004,
               "tp": 1
             },
             "random": {
@@ -863,7 +863,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.01,
+              "seconds": 0.006,
               "tp": 0
             },
             "reconcile": {
@@ -874,7 +874,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.014,
+              "seconds": 0.008,
               "tp": 0
             }
           }
@@ -907,7 +907,7 @@
               "precision": 1.0,
               "recall": 1.0,
               "return": 1.0,
-              "seconds": 0.005,
+              "seconds": 0.004,
               "tp": 1
             },
             "random": {
@@ -918,7 +918,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.01,
+              "seconds": 0.006,
               "tp": 0
             },
             "reconcile": {
@@ -929,7 +929,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.015,
+              "seconds": 0.01,
               "tp": 0
             }
           }
@@ -951,7 +951,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.006,
+              "seconds": 0.003,
               "tp": 0
             },
             "oracle": {
@@ -973,7 +973,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.008,
+              "seconds": 0.005,
               "tp": 0
             },
             "reconcile": {
@@ -984,7 +984,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.01,
+              "seconds": 0.006,
               "tp": 0
             }
           }
@@ -1006,7 +1006,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.005,
+              "seconds": 0.003,
               "tp": 0
             },
             "oracle": {
@@ -1017,7 +1017,7 @@
               "precision": 1.0,
               "recall": 1.0,
               "return": 1.0,
-              "seconds": 0.003,
+              "seconds": 0.002,
               "tp": 2
             },
             "random": {
@@ -1028,7 +1028,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.007,
+              "seconds": 0.004,
               "tp": 0
             },
             "reconcile": {
@@ -1039,7 +1039,7 @@
               "precision": 1.0,
               "recall": 0.5,
               "return": 0.31533333333333324,
-              "seconds": 0.007,
+              "seconds": 0.004,
               "tp": 1
             }
           }
@@ -1061,7 +1061,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.006,
+              "seconds": 0.003,
               "tp": 0
             },
             "oracle": {
@@ -1072,7 +1072,7 @@
               "precision": 1.0,
               "recall": 1.0,
               "return": 1.0,
-              "seconds": 0.004,
+              "seconds": 0.003,
               "tp": 2
             },
             "random": {
@@ -1083,7 +1083,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.008,
+              "seconds": 0.005,
               "tp": 0
             },
             "reconcile": {
@@ -1094,7 +1094,7 @@
               "precision": 1.0,
               "recall": 0.5,
               "return": 0.30733333333333324,
-              "seconds": 0.01,
+              "seconds": 0.006,
               "tp": 1
             }
           }
@@ -1116,7 +1116,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.006,
+              "seconds": 0.004,
               "tp": 0
             },
             "oracle": {
@@ -1127,7 +1127,7 @@
               "precision": 1.0,
               "recall": 1.0,
               "return": 1.0,
-              "seconds": 0.005,
+              "seconds": 0.003,
               "tp": 2
             },
             "random": {
@@ -1138,7 +1138,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.008,
+              "seconds": 0.005,
               "tp": 0
             },
             "reconcile": {
@@ -1149,7 +1149,7 @@
               "precision": 1.0,
               "recall": 0.5,
               "return": 0.30333333333333323,
-              "seconds": 0.011,
+              "seconds": 0.006,
               "tp": 1
             }
           }
@@ -1171,7 +1171,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.007,
+              "seconds": 0.004,
               "tp": 0
             },
             "oracle": {
@@ -1182,7 +1182,7 @@
               "precision": 1.0,
               "recall": 1.0,
               "return": 1.0,
-              "seconds": 0.005,
+              "seconds": 0.003,
               "tp": 2
             },
             "random": {
@@ -1193,7 +1193,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.009,
+              "seconds": 0.005,
               "tp": 0
             },
             "reconcile": {
@@ -1204,7 +1204,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.012,
+              "seconds": 0.007,
               "tp": 0
             }
           }
@@ -1226,7 +1226,7 @@
               "precision": 0.0,
               "recall": 0.0,
               "return": -1.0,
-              "seconds": 0.004,
+              "seconds": 0.005,
               "tp": 0
             },
             "oracle": {
@@ -2138,7 +2138,7 @@
       "single_error": 0.1804
     }
   },
-  "seconds": 3.6,
+  "seconds": 3.1,
   "summary": {
     "contract": "20/20",
     "episodes": "20/20",

@@ -1,6 +1,6 @@
 PY ?= python3
-IMAGE ?= genesis-audit-env:1.9.6
-POLICY_IMAGE ?= genesis-audit-policy:1.9.6
+IMAGE ?= genesis-audit-env:1.9.7
+POLICY_IMAGE ?= genesis-audit-policy:1.9.7
 
 .PHONY: sandbox docker-policy-image docker-isolated check test episodes baselines report jury jury-definitions attacks contrast play golden mutation mutation-sweep typecheck hard-audit replay train sweep sft stress envcheck docker-build docker-check docker-check-hardened clean
 

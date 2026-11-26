@@ -11,7 +11,7 @@
       "return": -1.0,
       "return_clean": -1.0,
       "return_with_errors": -1.0,
-      "seconds": 0.0624,
+      "seconds": 0.0607,
       "steps": 3.1
     },
     "oracle": {
@@ -25,7 +25,7 @@
       "return": 1.0,
       "return_clean": 1.0,
       "return_with_errors": 1.0,
-      "seconds": 0.0584,
+      "seconds": 0.0581,
       "steps": 0.0
     },
     "random": {
@@ -39,7 +39,7 @@
       "return": -1.0,
       "return_clean": -1.0,
       "return_with_errors": -1.0,
-      "seconds": 0.0581,
+      "seconds": 0.0629,
       "steps": 12.3
     },
     "reconcile": {
@@ -53,7 +53,7 @@
       "return": 0.3813,
       "return_clean": 0.9627,
       "return_with_errors": 0.1321,
-      "seconds": 0.0649,
+      "seconds": 0.0652,
       "steps": 17.7
     },
     "silent": {
@@ -67,11 +67,11 @@
       "return": -0.4,
       "return_clean": 1.0,
       "return_with_errors": -1.0,
-      "seconds": 0.0547,
+      "seconds": 0.0597,
       "steps": 0.0
     }
   },
-  "episodes": "/home/claude/work/genesis-audit-env/episodes/train",
+  "episodes": "/home/claude/v197/genesis-audit-env/episodes/train",
   "episodes_detail": [
     {
       "clean": false,
@@ -157,7 +157,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.060024296000051436,
+      "seconds": 0.07927235699980884,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -244,7 +244,7 @@
       "precision": 1.0,
       "recall": 0.42857142857142855,
       "reward": 0.17599999999999996,
-      "seconds": 0.06047926500002632,
+      "seconds": 0.06258894899974621,
       "tp": 3,
       "truncated": false,
       "valid": true
@@ -478,7 +478,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.05862472399996932,
+      "seconds": 0.05988763300001665,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -568,7 +568,7 @@
       "precision": 1.0,
       "recall": 1.0,
       "reward": 1.0,
-      "seconds": 0.07010848699997041,
+      "seconds": 0.06126763599968399,
       "tp": 7,
       "truncated": false,
       "valid": true
@@ -650,7 +650,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.06525533100000303,
+      "seconds": 0.05872998100039695,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -756,7 +756,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.07508183300001292,
+      "seconds": 0.061037433999899804,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -857,7 +857,7 @@
       "precision": 1.0,
       "recall": 0.5,
       "reward": 0.28533333333333327,
-      "seconds": 0.0970823280000559,
+      "seconds": 0.07594751800024824,
       "tp": 5,
       "truncated": false,
       "valid": true
@@ -1103,7 +1103,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.08588572300004671,
+      "seconds": 0.06208274700020411,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -1208,7 +1208,7 @@
       "precision": 1.0,
       "recall": 1.0,
       "reward": 1.0,
-      "seconds": 0.06122292899999593,
+      "seconds": 0.05706227700011368,
       "tp": 10,
       "truncated": false,
       "valid": true
@@ -1302,7 +1302,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.05639311400000224,
+      "seconds": 0.05688699600023028,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -1362,7 +1362,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.05836850599996524,
+      "seconds": 0.06164499500027887,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -1415,7 +1415,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": 0.958,
-      "seconds": 0.0793629319999809,
+      "seconds": 0.06007548100023996,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -1620,7 +1620,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.06631519899997329,
+      "seconds": 0.059699600000385544,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -1673,7 +1673,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": 1.0,
-      "seconds": 0.05753077300005316,
+      "seconds": 0.054367167000236805,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -1726,7 +1726,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": 1.0,
-      "seconds": 0.06291706900003646,
+      "seconds": 0.058089081999696646,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -1796,7 +1796,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.057040272999984154,
+      "seconds": 0.06023696400006884,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -1849,7 +1849,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": 0.962,
-      "seconds": 0.06594266800004789,
+      "seconds": 0.06449095700008911,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -2054,7 +2054,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.06860553299998173,
+      "seconds": 0.05619055299985121,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -2107,7 +2107,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": 1.0,
-      "seconds": 0.05938178000008065,
+      "seconds": 0.05316132599955381,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -2160,7 +2160,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": 1.0,
-      "seconds": 0.05658416500000385,
+      "seconds": 0.0559348140000111,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -2255,7 +2255,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.06305637799994201,
+      "seconds": 0.06059206300005826,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -2337,7 +2337,7 @@
       "precision": 1.0,
       "recall": 0.3333333333333333,
       "reward": -0.04,
-      "seconds": 0.06924793999996837,
+      "seconds": 0.0719708419997005,
       "tp": 2,
       "truncated": false,
       "valid": true
@@ -2567,7 +2567,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.08194785900002444,
+      "seconds": 0.062087643000268145,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -2652,7 +2652,7 @@
       "precision": 1.0,
       "recall": 1.0,
       "reward": 1.0,
-      "seconds": 0.08177109400003246,
+      "seconds": 0.0689470600000277,
       "tp": 6,
       "truncated": false,
       "valid": true
@@ -2730,7 +2730,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.052295052000090436,
+      "seconds": 0.062291151999943395,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -2825,7 +2825,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.052965659000051346,
+      "seconds": 0.059133500999905664,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -2907,7 +2907,7 @@
       "precision": 1.0,
       "recall": 0.3333333333333333,
       "reward": -0.028,
-      "seconds": 0.053703709999922467,
+      "seconds": 0.056968331999996735,
       "tp": 2,
       "truncated": false,
       "valid": true
@@ -3137,7 +3137,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.051280850000011924,
+      "seconds": 0.05756453899994085,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -3222,7 +3222,7 @@
       "precision": 1.0,
       "recall": 1.0,
       "reward": 1.0,
-      "seconds": 0.049787043000037556,
+      "seconds": 0.06030577599995013,
       "tp": 6,
       "truncated": false,
       "valid": true
@@ -3300,7 +3300,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.049856841999940116,
+      "seconds": 0.06548079000003781,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -3360,7 +3360,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.05139080699996157,
+      "seconds": 0.06322521899983258,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -3413,7 +3413,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": 0.968,
-      "seconds": 0.05526419599993915,
+      "seconds": 0.07243554600017887,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -3618,7 +3618,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.052175854999973126,
+      "seconds": 0.07155304299976706,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -3671,7 +3671,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": 1.0,
-      "seconds": 0.05075087900002018,
+      "seconds": 0.05394903599972167,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -3724,7 +3724,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": 1.0,
-      "seconds": 0.05012870699999894,
+      "seconds": 0.055852395000329125,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -3811,7 +3811,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.05265600099994572,
+      "seconds": 0.05988073899970914,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -3884,7 +3884,7 @@
       "precision": 1.0,
       "recall": 0.25,
       "reward": -0.23199999999999996,
-      "seconds": 0.055377412999973785,
+      "seconds": 0.06566638999993302,
       "tp": 1,
       "truncated": false,
       "valid": true
@@ -4106,7 +4106,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.053334945000074185,
+      "seconds": 0.06861890299978768,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -4181,7 +4181,7 @@
       "precision": 1.0,
       "recall": 1.0,
       "reward": 1.0,
-      "seconds": 0.050978529999952116,
+      "seconds": 0.06361390500023845,
       "tp": 4,
       "truncated": false,
       "valid": true
@@ -4251,7 +4251,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.050506706999954076,
+      "seconds": 0.07370218500000192,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -4346,7 +4346,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.05548086900000726,
+      "seconds": 0.06653122500028985,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -4429,7 +4429,7 @@
       "precision": 1.0,
       "recall": 0.5,
       "reward": 0.2913333333333333,
-      "seconds": 0.05898059200001171,
+      "seconds": 0.06695653000042512,
       "tp": 3,
       "truncated": false,
       "valid": true
@@ -4659,7 +4659,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.05475635800007694,
+      "seconds": 0.05638894599997002,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -4744,7 +4744,7 @@
       "precision": 1.0,
       "recall": 1.0,
       "reward": 1.0,
-      "seconds": 0.05229004599993914,
+      "seconds": 0.05411512299997412,
       "tp": 6,
       "truncated": false,
       "valid": true
@@ -4822,7 +4822,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.052587040000048546,
+      "seconds": 0.05506619200014029,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -4903,7 +4903,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.05494019900004332,
+      "seconds": 0.0570798239996293,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -4982,7 +4982,7 @@
       "precision": 1.0,
       "recall": 0.6,
       "reward": 0.472,
-      "seconds": 0.054038453999964986,
+      "seconds": 0.05480456800023603,
       "tp": 3,
       "truncated": false,
       "valid": true
@@ -5208,7 +5208,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.05108919799999967,
+      "seconds": 0.05291278700042312,
       "tp": 0,
       "truncated": false,
       "valid": true
@@ -5288,7 +5288,7 @@
       "precision": 1.0,
       "recall": 1.0,
       "reward": 1.0,
-      "seconds": 0.04984269300007327,
+      "seconds": 0.05381638300013947,
       "tp": 5,
       "truncated": false,
       "valid": true
@@ -5362,7 +5362,7 @@
       "precision": 0.0,
       "recall": 0.0,
       "reward": -1.0,
-      "seconds": 0.050855716999990364,
+      "seconds": 0.05475451799975417,
       "tp": 0,
       "truncated": false,
       "valid": true

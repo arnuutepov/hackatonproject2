@@ -19,5 +19,5 @@ Layout:
 #   package version (pyproject.toml) is the release of this repository.
 ENV_VERSION = "1.5.1"
 SEED_SALT = "1.2.0"
-API_VERSION = "1.3.0"
+API_VERSION = "1.4.0"
 SCHEMA_VERSION = "1.2"

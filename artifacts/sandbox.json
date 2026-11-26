@@ -46,7 +46,7 @@
       "lo"
     ],
     "memory_limit_bytes": 1073741824,
-    "net_ns": "net:[4026532316]",
+    "net_ns": "net:[4026532264]",
     "no_new_privs": "1",
     "route_interfaces": [],
     "site_packages_on_path": false,

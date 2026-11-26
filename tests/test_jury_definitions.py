@@ -196,11 +196,13 @@ def test_lexicographic_tie_break_among_maximum_matchings():
     assert match([finding] * 4, issues) == [(0, "A"), (1, "B"), (2, "C")]
 
 
-def test_long_ids_up_to_256_code_points_are_valid():
-    long_id = "x" * 256
+def test_long_ids_are_valid_and_compared_exactly():
+    """No id length limit is published: a long id is valid; only the exact id matches (1.9.7)."""
+    long_id = "x" * 1000
     truth = {"episode_id": "e", "issues": [{**TRUTH["issues"][0], "affected_ids": [long_id]}]}
     assert score({"episode_id": "e", "findings": [_f(affected_ids=[long_id])]}, truth, 0)["tp"] == 1
-    assert score({"episode_id": "e", "findings": [_f(affected_ids=["x" * 257])]}, truth, 0)["valid"] is False
+    other = score({"episode_id": "e", "findings": [_f(affected_ids=["x" * 1001])]}, truth, 0)
+    assert other["valid"] is True and (other["tp"], other["fp"], other["fn"]) == (0, 1, 1)
 
 
 def test_matrix_documents_every_scenario_with_a_valid_config():

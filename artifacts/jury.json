@@ -19,7 +19,7 @@
         "precision_pooled": 0.0,
         "recall_pooled": 0.0,
         "return": -1.0,
-        "seconds_per_episode": 0.1169,
+        "seconds_per_episode": 0.1173,
         "steps": 2.75
       },
       "clean": {
@@ -28,7 +28,7 @@
         "precision_pooled": 0.0,
         "recall_pooled": null,
         "return": -1.0,
-        "seconds_per_episode": 0.0683,
+        "seconds_per_episode": 0.0832,
         "steps": 2.4
       },
       "interacting": {
@@ -37,7 +37,7 @@
         "precision_pooled": 0.0,
         "recall_pooled": 0.0,
         "return": -1.0,
-        "seconds_per_episode": 0.1478,
+        "seconds_per_episode": 0.1239,
         "steps": 2.6
       },
       "standard": {
@@ -46,7 +46,7 @@
         "precision_pooled": 0.0,
         "recall_pooled": 0.0,
         "return": -1.0,
-        "seconds_per_episode": 0.1257,
+        "seconds_per_episode": 0.131,
         "steps": 3.0
       }
     },
@@ -57,7 +57,7 @@
         "precision_pooled": 1.0,
         "recall_pooled": 1.0,
         "return": 1.0,
-        "seconds_per_episode": 0.1112,
+        "seconds_per_episode": 0.115,
         "steps": 0.0
       },
       "clean": {
@@ -66,7 +66,7 @@
         "precision_pooled": null,
         "recall_pooled": null,
         "return": 1.0,
-        "seconds_per_episode": 0.067,
+        "seconds_per_episode": 0.0759,
         "steps": 0.0
       },
       "interacting": {
@@ -75,7 +75,7 @@
         "precision_pooled": 1.0,
         "recall_pooled": 1.0,
         "return": 1.0,
-        "seconds_per_episode": 0.1441,
+        "seconds_per_episode": 0.1259,
         "steps": 0.0
       },
       "standard": {
@@ -84,7 +84,7 @@
         "precision_pooled": 1.0,
         "recall_pooled": 1.0,
         "return": 1.0,
-        "seconds_per_episode": 0.1168,
+        "seconds_per_episode": 0.1291,
         "steps": 0.0
       }
     },
@@ -95,7 +95,7 @@
         "precision_pooled": 0.0,
         "recall_pooled": 0.0,
         "return": -1.0,
-        "seconds_per_episode": 0.1105,
+        "seconds_per_episode": 0.1164,
         "steps": 14.55
       },
       "clean": {
@@ -104,7 +104,7 @@
         "precision_pooled": 0.0,
         "recall_pooled": null,
         "return": -1.0,
-        "seconds_per_episode": 0.0662,
+        "seconds_per_episode": 0.0738,
         "steps": 7.2
       },
       "interacting": {
@@ -113,7 +113,7 @@
         "precision_pooled": 0.0,
         "recall_pooled": 0.0,
         "return": -1.0,
-        "seconds_per_episode": 0.1412,
+        "seconds_per_episode": 0.1322,
         "steps": 14.4
       },
       "standard": {
@@ -122,7 +122,7 @@
         "precision_pooled": 0.0,
         "recall_pooled": 0.0,
         "return": -1.0,
-        "seconds_per_episode": 0.1172,
+        "seconds_per_episode": 0.1299,
         "steps": 18.3
       }
     },
@@ -133,7 +133,7 @@
         "precision_pooled": 1.0,
         "recall_pooled": 0.513,
         "return": 0.4289,
-        "seconds_per_episode": 0.1161,
+        "seconds_per_episode": 0.1216,
         "steps": 18.4
       },
       "clean": {
@@ -142,7 +142,7 @@
         "precision_pooled": null,
         "recall_pooled": null,
         "return": 0.9668,
-        "seconds_per_episode": 0.0694,
+        "seconds_per_episode": 0.0861,
         "steps": 16.6
       },
       "interacting": {
@@ -151,7 +151,7 @@
         "precision_pooled": 1.0,
         "recall_pooled": 0.5455,
         "return": 0.376,
-        "seconds_per_episode": 0.1483,
+        "seconds_per_episode": 0.1301,
         "steps": 19.6
       },
       "standard": {
@@ -160,10 +160,10 @@
         "precision_pooled": 1.0,
         "recall_pooled": 0.5,
         "return": 0.1864,
-        "seconds_per_episode": 0.1233,
+        "seconds_per_episode": 0.135,
         "steps": 18.7
       }
     }
   },
-  "recipe": "/home/claude/work/genesis-audit-env/configs/hidden_like.json"
+  "recipe": "/home/claude/v197/genesis-audit-env/configs/hidden_like.json"
 }
